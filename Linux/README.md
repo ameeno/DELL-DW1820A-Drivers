@@ -20,19 +20,22 @@ Blacklisting drivers can be found here:
 ***
 
 so for example a **99_broadcom_blacklist.conf** would look like this:
-      blacklist b43
-      blacklist b43legacy
-      blacklist iwlwifi
 
+    blacklist b43
+    blacklist b43legacy
+    blacklist iwlwifi
 
+***
 
 **BLUETOOTH**
+
+
 For bluetooth however, The normal drivers are buggy.
 For arch this patch is fantastic (Download/Install from AUR)
 
     https://aur.archlinux.org/packages/bcm4350c5-firmware/
 
-**
+***
 
 For your own distribution, you will need to find bcm4350c5-firmware
 package, or you can take a look at the arch PKGBUILD:
@@ -41,7 +44,7 @@ package, or you can take a look at the arch PKGBUILD:
     https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=bcm20702a1-firmware
 
 
-and apply the firmware modifications yourself.
+Then apply the firmware modifications yourself.
 
 In a nutshell, it downloads the windows zip file for bluetooth, extracts the firmware for bluetooth for this card, and patches it to work with linux.
 
