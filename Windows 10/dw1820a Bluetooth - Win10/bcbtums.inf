@@ -1,0 +1,3234 @@
+;
+; Broadcom Bluetooth USB INF
+;
+; Copyright (c) 2015 Broadcom Corporation
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=Bluetooth
+ClassGuid={e0cbf06c-cd8b-4647-bb8a-263b43f0f974}
+Provider=%BRCM%
+DriverVer = 07/30/2018,12.0.1.1104
+CatalogFile = bcbtums-x64.cat
+
+[SourceDisksNames]
+1 = %DISK_1%,,,
+
+[SourceDisksFiles]
+bcbtums.sys = 1
+btwampfl.sys  = 1
+BCM43142A0_001.001.011.0161.0186.hex = 1
+BCM43142A0_001.001.011.0161.0187.hex = 1
+BCM43142A0_001.001.011.0197.0218.hex = 1
+BCM43142A0_001.001.011.0197.0220.hex = 1
+BCM43142A0_001.001.011.0197.0222.hex = 1
+BCM43142A0_001.001.011.0249.0265.hex = 1
+BCM43142A0_001.001.011.0277.0279.hex = 1
+BCM43142A0_001.001.011.0277.0280.hex = 1
+BCM43142A0_001.001.011.0277.0292.hex = 1
+BCM43142A0_001.001.011.0277.0308.hex = 1
+BCM43142A0_001.001.011.0311.0312.hex = 1
+BCM43142A0_001.001.011.0311.0316.hex = 1
+BCM43142A0_001.001.011.0311.0327.hex = 1
+BCM43142A0_001.001.011.0311.0328.hex = 1
+BCM43142A0_001.001.011.0311.0329.hex = 1
+BCM43142A0_001.001.011.0311.0330.hex = 1
+BCM43142A0_001.001.011.0311.0331.hex = 1
+BCM43142A0_001.001.011.0311.0332.hex = 1
+BCM43142A0_001.001.011.0311.0333.hex = 1
+BCM43142A0_001.001.011.0311.0334.hex = 1
+BCM43142A0_001.001.011.0311.0335.hex = 1
+BCM43142A0_001.001.011.0311.0336.hex = 1
+BCM43142A0_001.001.011.0311.0339.hex = 1
+BCM43142A0_001.001.011.0311.0340.hex = 1
+BCM43142A0_001.001.011.0311.0341.hex = 1
+BCM43142A0_001.001.011.0311.0346.hex = 1
+BCM43142A0_001.001.011.0311.0347.hex = 1
+BCM4356A2_001.003.015.0046.0104.hex = 1
+BCM4356A2_001.003.015.0046.0120.hex = 1
+BCM4356A2_001.003.015.0046.0122.hex = 1
+BCM4356A2_001.003.015.0046.0125.hex = 1
+BCM4356A2_001.003.015.0046.0127.hex = 1
+BCM4356A2_001.003.015.0046.0132.hex = 1
+BCM4356A2_001.003.015.0046.0183.hex = 1
+BCM4356A2_001.003.015.0046.0195.hex = 1
+BCM4356A2_001.003.015.0046.0197.hex = 1
+BCM4356A2_001.003.015.0080.0225.hex = 1
+BCM4356A2_001.003.015.0082.0255.hex = 1
+BCM4356A2_001.003.015.0082.0257.hex = 1
+BCM4356A2_001.003.015.0082.0258.hex = 1
+BCM4356A2_001.003.015.0082.0259.hex = 1
+BCM4356A2_001.003.015.0095.0292.hex = 1
+BCM4356A2_001.003.015.0095.0293.hex = 1
+BCM20702A1_001.002.014.1443.1447.hex = 1
+BCM20702A1_001.002.014.1443.1449.hex = 1
+BCM20702A1_001.002.014.1443.1450.hex = 1
+BCM20702A1_001.002.014.1443.1460.hex = 1
+BCM20702A1_001.002.014.1443.1461.hex = 1
+BCM20702A1_001.002.014.1443.1462.hex = 1
+BCM20702A1_001.002.014.1443.1463.hex = 1
+BCM20702A1_001.002.014.1443.1465.hex = 1
+BCM20702A1_001.002.014.1443.1466.hex = 1
+BCM20702A1_001.002.014.1443.1467.hex = 1
+BCM20702A1_001.002.014.1443.1468.hex = 1
+BCM20702A1_001.002.014.1443.1469.hex = 1
+BCM20702A1_001.002.014.1443.1477.hex = 1
+BCM20702A1_001.002.014.1443.1478.hex = 1
+BCM20702A1_001.002.014.1443.1479.hex = 1
+BCM20702A1_001.002.014.1443.1480.hex = 1
+BCM20702A1_001.002.014.1443.1481.hex = 1
+BCM20702A1_001.002.014.1443.1482.hex = 1
+BCM20702A1_001.002.014.1443.1483.hex = 1
+BCM20702A1_001.002.014.1443.1484.hex = 1
+BCM20702A1_001.002.014.1443.1485.hex = 1
+BCM20702A1_001.002.014.1443.1486.hex = 1
+BCM20702A1_001.002.014.1443.1487.hex = 1
+BCM20702A1_001.002.014.1443.1488.hex = 1
+BCM20702A1_001.002.014.1443.1489.hex = 1
+BCM20702A1_001.002.014.1443.1490.hex = 1
+BCM20702A1_001.002.014.1443.1492.hex = 1
+BCM20702A1_001.002.014.1443.1493.hex = 1
+BCM20702A1_001.002.014.1443.1494.hex = 1
+BCM20702A1_001.002.014.1443.1499.hex = 1
+BCM20702A1_001.002.014.1443.1501.hex = 1
+BCM20702A1_001.002.014.1443.1502.hex = 1
+BCM20702A1_001.002.014.1443.1521.hex = 1
+BCM20702A1_001.002.014.1443.1532.hex = 1
+BCM20702A1_001.002.014.1443.1572.hex = 1
+BCM20702A1_001.002.014.1443.1714.hex = 1
+BCM20702A1_001.002.014.1483.1651.hex = 1
+BCM20702A1_001.002.014.1502.1757.hex = 1
+BCM20702A1_001.002.014.1502.1758.hex = 1
+BCM20702A1_001.002.014.1502.1759.hex = 1
+BCM20702A1_001.002.014.1502.1760.hex = 1
+BCM20702A1_001.002.014.1502.1761.hex = 1
+BCM20702A1_001.002.014.1502.1762.hex = 1
+BCM20702A1_001.002.014.1502.1763.hex = 1
+BCM20702A1_001.002.014.1502.1764.hex = 1
+BCM20702A1_001.002.014.1502.1765.hex = 1
+BCM20702A1_001.002.014.1502.1766.hex = 1
+BCM20702A1_001.002.014.1502.1767.hex = 1
+BCM20702A1_001.002.014.1502.1768.hex = 1
+BCM20702A1_001.002.014.1502.1769.hex = 1
+BCM20702A1_001.002.014.1502.1770.hex = 1
+BCM20702A1_001.002.014.1502.1780.hex = 1
+BCM20702A1_001.002.014.1502.1786.hex = 1
+BCM20702B0_002.001.014.0527.0557.hex = 1
+BCM20703A1_001.001.005.0214.0414.hex = 1
+BCM20703A1_001.001.005.0214.0422.hex = 1
+BCM20703A1_001.001.005.0214.0473.hex = 1
+BCM20703A1_001.001.005.0214.0481.hex = 1
+BCM4335C0_003.001.009.0066.0104.hex = 1
+BCM4335C0_003.001.009.0066.0105.hex = 1
+BCM4335C0_003.001.009.0066.0108.hex = 1
+BCM4335C0_003.001.009.0066.0115.hex = 1
+BCM4335C0_003.001.009.0066.0121.hex = 1
+BCM4350C5_003.006.007.0221.4688.hex = 1
+BCM4350C5_003.006.007.0120.2118.hex = 1
+BCM4350C5_003.006.007.0145.2724.hex = 1 
+BCM4371C2_001.003.015.0093.0116.hex = 1
+BCM4371C2_001.003.015.0093.0117.hex = 1
+BCM4371C2_001.003.015.0093.0118.hex = 1 
+
+[ControlFlags]
+ExcludeFromSelect = *
+
+[Manufacturer]
+%MfgName%=Broadcom, NTamd64.10.0, NTamd64.6.3, NTamd64.10.0...17134
+
+; Win10+
+[Broadcom.NTamd64.10.0]
+; 20702 standalone 1443 FW
+%AsusBT400.DeviceDesc%=RAMUSB17CB,          USB\VID_0B05&PID_17CB       ; 20702 standalone
+%Belkin.DeviceDesc%=RAMUSB065A,             USB\VID_050D&PID_065A       ; 20702 standalone
+%BRCM20702.DeviceDesc%=RAMUSB21EC,          USB\VID_0A5C&PID_21EC       ; 20702A1 REF6 OTP module standalone
+%BtUSB.DeviceDesc%=RAMUSB3384,              USB\VID_13D3&PID_3384       ; 20702A1 Azurewave standalone
+%DellDW380.DeviceDesc%=RAMUSB8197,          USB\VID_413C&PID_8197       ; Dell DW380 Nancy Blakes standalone
+%AsusTrust.DeviceDesc%=RAMUSB01A3,          USB\VID_145F&PID_01A3       ; 20702A1 Asus Trust standalone
+%BRCMBt40USB.DeviceDesc%=RAMUSB2003,        USB\VID_04CA&PID_2003       ; 20702A1 Lenovo China standalone
+%BRCMBt40USB.DeviceDesc%=RAMUSBE042,        USB\VID_0489&PID_E042       ; 20702A1 Lenovo China standalone
+
+; 43142 0311 FW
+%BRCMBt40.DeviceDesc%=RAMUSBE065,           USB\VID_105B&PID_E065       ; LenovoChina 43142A0 combo
+%BtUSB.DeviceDesc%=RAMUSBB4A1,              USB\VID_04F2&PID_B4A1       ; ASUS Chicony BCM43142A0 NGFF
+%AzBtModule.DeviceDesc%=RAMUSB2006,         USB\VID_04CA&PID_2006       ; LiteOn 43142 combo
+%BRCM43142BtUsbhp.DeviceDesc%=RAMUSB216C,   USB\VID_0A5C&PID_216C       ; HP Harrier 43142
+%BRCM43142BtUsbhp.DeviceDesc%=RAMUSB216D,   USB\VID_0A5C&PID_216D       ; HP Hornet 43142Y ngff combo
+%BRCMBt40USB.DeviceDesc%=RAMUSB2012,        USB\VID_04CA&PID_2012       ; Acer BCM943142Y NGFF
+%BRCMBt40USB.DeviceDesc%=RAMUSBE096,        USB\VID_0489&PID_E096       ; BCM43142A0
+%DellDW1708.DeviceDesc%=RAMUSB216A,         USB\VID_0A5C&PID_216A       ; Dell DW1708 43142Y combo
+%BRCM43142.DeviceDesc%=RAMUSB0225,          USB\VID_0930&PID_0225       ; Toshiba 43142 combo NGFF
+%BRCM43142.DeviceDesc%=RAMUSB0226,          USB\VID_0930&PID_0226       ; Toshiba 43142 combo NGFF
+%BRCM43142.DeviceDesc%=RAMUSB3427,          USB\VID_13D3&PID_3427       ; Toshiba 43142 combo NGFF
+%BtUSB.DeviceDesc%=RAMUSB021F,              USB\VID_0930&PID_021F       ; Toshiba 43142
+%Dell1704.DeviceDesc%=RAMUSB21D7,           USB\VID_0A5C&PID_21D7       ; BRCM Generic 43142A0 RAMUSB
+%BtUSB.DeviceDesc%=RAMUSB2009,              USB\VID_04CA&PID_2009       ; LiteOn 43142 combo
+%BtUSB.DeviceDesc%=RAMUSBE055,              USB\VID_0489&PID_E055       ; 43142A0 Acer combo
+%BRCM43142BtUsb.DeviceDesc%=RAMUSB3388,     USB\VID_13D3&PID_3388       ; BRCM Generic 43142A0 RAMUSB
+%BRCM43142BtUsb.DeviceDesc%=RAMUSB3389,     USB\VID_13D3&PID_3389       ; BRCM Generic 43142A0 RAMUSB
+%BtUSB.DeviceDesc%=RAMUSB3482,              USB\VID_13D3&PID_3482       ; AZUREWAVE BCM43142A0 NGFF
+%BtUSB.DeviceDesc%=RAMUSB3484,              USB\VID_13D3&PID_3484       ; Acer AZUREWAVE BCM43142A0 NGFF
+
+; 4356 0046 FW
+%BtUSB.DeviceDesc%=RAMUSB181D,              USB\VID_0B05&PID_181D       ; Asus AZUREWAVE MB BCM4356A2
+%BRCMBt40USB.DeviceDesc%=RAMUSB2014,        USB\VID_04CA&PID_2014       ; Asus LiteOn BCM4356A2 NGFF
+%BRCMBt40USB.DeviceDesc%=RAMUSBE097,        USB\VID_0489&PID_E097       ; Acer Foxconn BCM4356A2 NGFF
+%BtUSB.DeviceDesc%=RAMUSB3473,              USB\VID_13D3&PID_3473       ; Asus AZUREWAVE BCM4356A2 NGFF
+%BtUSB.DeviceDesc%=RAMUSB3485,              USB\VID_13D3&PID_3485       ; Asus AZUREWAVE BCM4356A2 NB 2217NF
+%BtUSB.DeviceDesc%=RAMUSB3492,              USB\VID_13D3&PID_3492       ; Asus AZUREWAVE BCM4356A2 NGFF
+%BtUSB.DeviceDesc%=RAMUSB3488,              USB\VID_13D3&PID_3488       ; Asus AZUREWAVE BCM4356A2 NB 2210
+%BRCMBt40USB.DeviceDesc%=RAMUSB2013,        USB\VID_04CA&PID_2013       ; Acer LiteOn BCM4356A2 NGFF
+%BtUSB.DeviceDesc%=RAMUSBB4A2,              USB\VID_04F2&PID_B4A2       ; BCM4356A2
+
+; 4356 0080 FW HCI Extension enabled
+%BRCM4356.DeviceDesc%=RAMUSB640A,           USB\VID_0A5C&PID_640A       ; BRCM Generic Reference 4356
+
+; 4356 0082 FW HCI Extension enabled
+%BrcmBt41.DeviceDesc%=RAMUSB640E,           USB\VID_0A5C&PID_640E       ; Lenovo 4356 NGFF combo
+%BtUSB.DeviceDesc%=RAMUSB5600,              USB\VID_2B54&PID_5600       ; Emdoor AP6356SD BCM4356A2
+%AzBtModule.DeviceDesc%=RAMUSB5601,         USB\VID_2B54&PID_5601       ; Asus AP6356SDP1A BCM4356A2
+%AmBtModule.DeviceDesc%=RAMUSB5602,         USB\VID_2B54&PID_5602       ; AMPAK AP6356SDP2A BCM4356A2
+
+; 20702 combos 1502 FW w/ HCI Extensions
+%HP20702A1.DeviceDesc%=RAMUSB21E3,          USB\VID_0A5C&PID_21E3       ; 20702A1 non-UHE 4313 combo HP Valentine
+%BRCMBt40.DeviceDesc%=RAMUSB21F4,           USB\VID_0A5C&PID_21F4       ; Lenovo Edge 4313 + 20702A1 combo
+%HP20702.DeviceDesc%=RAMUSB21F1,            USB\VID_0A5C&PID_21F1       ; 43228 combo
+%BRCM20702.DeviceDesc%=RAMUSB0221,          USB\VID_0930&PID_0221       ; 20702A1 Toshiba 4352
+%BRCM20702.DeviceDesc%=RAMUSB0223,          USB\VID_0930&PID_0223       ; 20702A1 Toshiba 4352
+%HP20702A1.DeviceDesc%=RAMUSB21FB,          USB\VID_0A5C&PID_21FB       ; HP Supra 4352 20702A1 combo
+%HP20702A1.DeviceDesc%=RAMUSB216B,          USB\VID_0A5C&PID_216B       ; HP Rapture 4352z ngff combo
+%HP20702.DeviceDesc%=RAMUSB640B,            USB\VID_0A5C&PID_640B       ; HP Luffy 43228 + 20702 M.2
+%BRCMBt40.DeviceDesc%=RAMUSB21F3,           USB\VID_0A5C&PID_21F3       ; Lenovo Edge 43228 + 20702A1 combo
+%Zebra20702.DeviceDesc%=RAMUSB6417,         USB\VID_0A5C&PID_6417       ; Zebra 4352
+%BtUSB.DeviceDesc%=RAMUSB3517,              USB\VID_13D3&PID_3517       ; AW CE160H BCM20702
+
+; 20702 combos 1443 FW
+%BtUSB.DeviceDesc%=RAMUSB17CF,              USB\VID_0B05&PID_17CF       ; Asus 4352_20702A1 combo
+%BRCMBt40USB.DeviceDesc%=RAMUSBE032,        USB\VID_0489&PID_E032       ; 20702 E032 Combo
+%BtUSB.DeviceDesc%=RAMUSBE046,              USB\VID_0489&PID_E046       ; 20702A1 Acer 43228+20702 combo card 
+%BRCMBt40USB.DeviceDesc%=RAMUSBE04F,        USB\VID_0489&PID_E04F       ; 20702A1 Lenovo China 43227 WLAN + 20702A1 Combo card
+%AzBtModule.DeviceDesc%=RAMUSB17B5,         USB\VID_0B05&PID_17B5       ; Asus 43228+20702A1 combo
+%AzBtModule.DeviceDesc%=RAMUSB3392,         USB\VID_13D3&PID_3392       ; Azurewave 43228+20702
+%BtUSB.DeviceDesc%=RAMUSB2004,              USB\VID_04CA&PID_2004       ; LiteOn 43228+20702 combo
+%BtUSB.DeviceDesc%=RAMUSBE059,              USB\VID_0489&PID_E059       ; Acer 43228 + 20702A1 combo
+%BRCMBt40USB.DeviceDesc%=RAMUSBE066,        USB\VID_105B&PID_E066       ; LenovoChina 43228+20702 combo
+%AzBtModule.DeviceDesc%=RAMUSB2005,         USB\VID_04CA&PID_2005       ; LiteOn 43228+20702 combo
+%BRCM20702Combo.DeviceDesc%=RAMUSB21DE,     USB\VID_0A5C&PID_21DE       ; 4352+20702A1 combo
+%DW1550.DeviceDesc%=RAMUSB8143,             USB\VID_413C&PID_8143       ; DW1550 4352+20702 combo
+%AzBtModule.DeviceDesc%=RAMUSB3404,         USB\VID_13D3&PID_3404       ; 4352HMB Azurewave Module
+%BtUSB.DeviceDesc%=RAMUSB200A,              USB\VID_04CA&PID_200A       ; LiteOn 4352 combo
+%BRCMBt40USB.DeviceDesc%=RAMUSB200B,        USB\VID_04CA&PID_200B       ; LiteOn 4352 combo
+%BRCMBt40USB.DeviceDesc%=RAMUSB200C,        USB\VID_04CA&PID_200C       ; LiteOn 4352 combo
+%BtUSB.DeviceDesc%=RAMUSB200E,              USB\VID_04CA&PID_200E       ; Liteon 43228 NGFF combo
+%BRCMBt40USB.DeviceDesc%=RAMUSB200F,        USB\VID_04CA&PID_200F       ; Acer_LiteOn BCM20702A1_4352
+%BRCM20702Combo.DeviceDesc%=RAMUSB21FD,     USB\VID_0A5C&PID_21FD       ; BRCM Generic 4352z RAMUSB
+%BRCM20702Combo.DeviceDesc%=RAMUSB3411,     USB\VID_13D3&PID_3411       ; Dell Alienware 4352 20702A1 combo
+%BtUSB.DeviceDesc%=RAMUSB3413,              USB\VID_13D3&PID_3413       ; Azurewave 4360+20702 combo
+%BtUSB.DeviceDesc%=RAMUSB180A,              USB\VID_0B05&PID_180A       ; Azurewave 4360+20702 combo
+%BtUSB.DeviceDesc%=RAMUSB3418,              USB\VID_13D3&PID_3418       ; Azurewave 4352+20702 combo module
+%BRCM20702BtUsb.DeviceDesc%=RAMUSB2169,     USB\VID_0A5C&PID_2169       ; BRCM Generic 43228z
+%BtUSB.DeviceDesc%=RAMUSB3435,              USB\VID_13D3&PID_3435       ; AZUREWAVE BCM20702A1_4352
+%BtUSB.DeviceDesc%=RAMUSB3456,              USB\VID_13D3&PID_3456       ; AZUREWAVE BCM20702A1_4352
+%BtUSB.DeviceDesc%=RAMUSBE087,              USB\VID_0489&PID_E087       ; Acer 43228 NGFF combo module
+%DellDW1560.DeviceDesc%=RAMUSB216F,         USB\VID_0A5C&PID_216F       ; Dell DW1560 4352+20702 M.2
+
+; 20702 standalone 1502 FW + HCI Extensions
+%HP20702A1.DeviceDesc%=RAMUSB21E1,          USB\VID_0A5C&PID_21E1       ; 20702A1 non-UHE HP SoftSailing
+%BRCM20702.DeviceDesc%=RAMUSB21E8,          USB\VID_0A5C&PID_21E8       ; 20702A1 dongles
+%BRCM20702Thinkpad.DeviceDesc%=RAMUSB21E6,  USB\VID_0A5C&PID_21E6       ; 20702 non-UHE Lenovo Japan
+%BRCM20702Generic.DeviceDesc%=RAMUSBE052,   USB\VID_0489&PID_E052       ; 20702 non-UHE Generic
+%BRCM20702BtUsb.DeviceDesc%=RAMUSB021E,     USB\VID_0930&PID_021E       ; 20702A1 Toshiba standalone
+
+; 20702 combos 1483 FW
+%BRCMBt40USB.DeviceDesc%=RAMUSBE07A,        USB\VID_0489&PID_E07A       ; Lenovo China 4352+20702 NGFF
+
+; 43162/4335C0 066 FW
+%BRCMBt40USB.DeviceDesc%=RAMUSBE079,        USB\VID_0489&PID_E079       ; Lenovo China 43162 NGFF
+%BRCMBt40USB.DeviceDesc%=RAMUSB2016,        USB\VID_04CA&PID_2016       ; Lenovo 43162 NGFF combo module
+%BRCM43162BtUsb.DeviceDesc%=RAMUSB2168,     USB\VID_0A5C&PID_2168       ; BRCM Generic 43162Z
+%BRCM43162Combo.DeviceDesc%=RAMUSB0229,     USB\VID_0930&PID_0229       ; 43162 combo NGFF
+%BRCMHPBlackbird.DeviceDesc%=RAMUSB216E,    USB\VID_0A5C&PID_216E       ; HP Blackbird 43162 NGFF
+
+; 4350C5 0095 FW
+%DW1820.DeviceDesc%=RAMUSB6412,             USB\VID_0A5C&PID_6412       ; Dell 4350C5
+; 4350C5 0120 FW
+%BRCM640D.DeviceDesc%=RAMUSB6413,           USB\VID_0A5C&PID_6413       ; Broadcom Generic 4350C5
+; 4350C5 0145 FW
+%BrcmBt41.DeviceDesc%=RAMUSB6414,           USB\VID_0A5C&PID_6414       ; Lenovo 4350C5
+
+; 20703 0214 FW
+%DW1830.DeviceDesc%=RAMUSB6410,             USB\VID_0A5C&PID_6410       ; 20703A1 RAM download - DW1830 43602
+%BRCM20703A1.DeviceDesc%=RAMUSB0306,        USB\VID_0BB4&PID_0306       ; 20703A1 HTC runtime RAM dongle
+%BrcmBt41.DeviceDesc%=RAMUSBE0A1,           USB\VID_0489&PID_E0A1       ; 20703A1 Lenovo 43602 NGFF combo
+%BRCM20703A1.DeviceDesc%=RAMUSB7460,        USB\VID_0A5C&PID_7460       ; 20703A1 RAM download
+
+; 4371C2 w/093 FW
+%BtUSB.DeviceDesc%=RAMUSB3504,              USB\VID_13D3&PID_3504       ; AW CM217NF BCM4371C2
+%BtUSB.DeviceDesc%=RAMUSB3508,              USB\VID_13D3&PID_3508       ; AW ASUS CM217NF BCM4371C2
+%HPBROOK4371.DeviceDesc%=RAMUSB6418,        USB\VID_0A5C&PID_6418       ; HP Brook 2x2ac
+
+; ******************************************
+; Win10+ 64 bit only
+[Broadcom64Only.NTamd64.10.0]
+; 4356A2 w/095 FW
+%BrcmBt41.DeviceDesc%=RAMUSB6419,           USB\VID_0A5C&PID_6419       ; Huawei 4356A2
+%BrcmBt41.DeviceDesc%=RAMUSB6420,           USB\VID_0A5C&PID_6420       ; Huawei 4356A2  
+; end 64 bit only
+; ******************************************
+
+
+
+;RS4 x64 Build number starts from 17134
+[Broadcom.NTamd64.10.0...17134]
+%DW1820.DeviceDesc%=RAMUSB6412,             USB\VID_0A5C&PID_6412       ; Dell 4350C5
+
+
+; Win8.1
+[Broadcom.NTamd64.6.3]
+%BRCMBt40USB.DeviceDesc%=RAMUSBE032,        USB\VID_0489&PID_E032       ; 20702 E032 Combo
+%HP20702A1.DeviceDesc%=RAMUSB21E3,          USB\VID_0A5C&PID_21E3       ; 20702A1 non-UHE 4313 combo HP Valentine
+%HP20702A1.DeviceDesc%=RAMUSB21E1,          USB\VID_0A5C&PID_21E1       ; 20702A1 non-UHE HP SoftSailing
+%BRCM20702.DeviceDesc%=RAMUSB21E8,          USB\VID_0A5C&PID_21E8       ; 20702A1 dongles
+%BtUSB.DeviceDesc%=RAMUSBE046,              USB\VID_0489&PID_E046       ; 20702A1 Acer 43228+20702 combo card 
+%BRCM20702.DeviceDesc%=RAMUSB21EC,          USB\VID_0A5C&PID_21EC       ; 20702A1 REF6 OTP module standalone
+%BRCMBt40USB.DeviceDesc%=RAMUSB2003,        USB\VID_04CA&PID_2003       ; 20702A1 Lenovo China standalone
+%BRCMBt40USB.DeviceDesc%=RAMUSBE042,        USB\VID_0489&PID_E042       ; 20702A1 Lenovo China standalone
+%BRCMBt40USB.DeviceDesc%=RAMUSBE04F,        USB\VID_0489&PID_E04F       ; 20702A1 Lenovo China 43227 WLAN + 20702A1 Combo card
+%BtUSB.DeviceDesc%=RAMUSB3384,              USB\VID_13D3&PID_3384       ; 20702A1 Azurewave standalone
+%BRCM20702Thinkpad.DeviceDesc%=RAMUSB21E6,  USB\VID_0A5C&PID_21E6       ; 20702 non-UHE Lenovo Japan
+%BRCMBt40.DeviceDesc%=RAMUSB21F3,           USB\VID_0A5C&PID_21F3       ; Lenovo Edge 43228 + 20702A1 combo
+%BRCMBt40.DeviceDesc%=RAMUSB21F4,           USB\VID_0A5C&PID_21F4       ; Lenovo Edge 4313 + 20702A1 combo
+%BRCM20702Generic.DeviceDesc%=RAMUSBE052,   USB\VID_0489&PID_E052       ; 20702 non-UHE Generic
+%HP20702.DeviceDesc%=RAMUSB21F1,            USB\VID_0A5C&PID_21F1       ; 43228 combo
+%BRCM43142BtUsb.DeviceDesc%=RAMUSB21D3,     USB\VID_0A5C&PID_21D3       ; BRCM Generic 43142A0 RAMUSB
+%BRCM43142BtUsb.DeviceDesc%=RAMUSB21D6,     USB\VID_0A5C&PID_21D6       ; BRCM Generic 43142A0 RAMUSB (Radio Control Disabled)
+%Dell1704.DeviceDesc%=RAMUSB21D7,           USB\VID_0A5C&PID_21D7       ; BRCM Generic 43142A0 RAMUSB
+%BRCM43142BtUsb.DeviceDesc%=RAMUSB21D8,     USB\VID_0A5C&PID_21D8       ; BRCM Generic 43142A0 RAMUSB
+%BRCM43142BtUsb.DeviceDesc%=RAMUSB3388,     USB\VID_13D3&PID_3388       ; BRCM Generic 43142A0 RAMUSB
+%BRCM43142BtUsb.DeviceDesc%=RAMUSB3389,     USB\VID_13D3&PID_3389       ; BRCM Generic 43142A0 RAMUSB
+%AzBtModule.DeviceDesc%=RAMUSB17B5,         USB\VID_0B05&PID_17B5       ; Asus 43228+20702A1 combo
+%BRCM20702BtUsb.DeviceDesc%=RAMUSB021E,     USB\VID_0930&PID_021E       ; 20702A1 Toshiba standalone
+%BtUSB.DeviceDesc%=RAMUSBE055,              USB\VID_0489&PID_E055       ; 43142A0 Acer combo
+%AzBtModule.DeviceDesc%=RAMUSB3392,         USB\VID_13D3&PID_3392       ; Azurewave 43228+20702
+%DellDW380.DeviceDesc%=RAMUSB8197,          USB\VID_413C&PID_8197       ; Dell DW380 Nancy Blakes standalone
+%BtUSB.DeviceDesc%=RAMUSB2004,              USB\VID_04CA&PID_2004       ; LiteOn 43228+20702 combo
+%AzBtModule.DeviceDesc%=RAMUSB2005,         USB\VID_04CA&PID_2005       ; LiteOn 43228+20702 combo
+%BtUSB.DeviceDesc%=RAMUSBE059,              USB\VID_0489&PID_E059       ; Acer 43228 + 20702A1 combo
+%BRCM43142BtUsbhp.DeviceDesc%=RAMUSB21DC,   USB\VID_0A5C&PID_21DC       ; HP 43142A0 RAMUSB
+%BRCMBt40.DeviceDesc%=RAMUSBE065,           USB\VID_105B&PID_E065       ; LenovoChina 43142A0 combo
+%BRCMBt40USB.DeviceDesc%=RAMUSBE066,        USB\VID_105B&PID_E066       ; LenovoChina 43228+20702 combo
+%BRCM20702Combo.DeviceDesc%=RAMUSB21DE,     USB\VID_0A5C&PID_21DE       ; 4352+20702A1 combo
+%AzBtModule.DeviceDesc%=RAMUSB2006,         USB\VID_04CA&PID_2006       ; LiteOn 43142 combo
+%BRCMBt40.DeviceDesc%=RAMUSB2007,           USB\VID_04CA&PID_2007       ; LiteOn 43142
+%BtUSB.DeviceDesc%=RAMUSB2009,              USB\VID_04CA&PID_2009       ; LiteOn 43142 combo
+%BRCMBt40USB.DeviceDesc%=RAMUSB2012,        USB\VID_04CA&PID_2012       ; Acer BCM943142Y NGFF
+%AzBtModule.DeviceDesc%=RAMUSB3404,         USB\VID_13D3&PID_3404       ; 4352HMB Azurewave Module
+%BtUSB.DeviceDesc%=RAMUSB021F,              USB\VID_0930&PID_021F       ; Toshiba 43142
+%DW1550.DeviceDesc%=RAMUSB8143,             USB\VID_413C&PID_8143       ; DW1550 4352+20702 combo
+%AsusBT400.DeviceDesc%=RAMUSB17CB,          USB\VID_0B05&PID_17CB       ; 20702 standalone
+%Belkin.DeviceDesc%=RAMUSB065A,             USB\VID_050D&PID_065A       ; 20702 standalone
+%BRCM43142BtAdapter.DeviceDesc%=RAMUSBE062, USB\VID_0489&PID_E062       ; Sony 43142A0 combo
+%BRCMBt40USB.DeviceDesc%=RAMUSBE07A,        USB\VID_0489&PID_E07A       ; Lenovo China 4352+20702 NGFF
+%BtUSB.DeviceDesc%=RAMUSB200A,              USB\VID_04CA&PID_200A       ; LiteOn 4352 combo
+%BRCMBt40USB.DeviceDesc%=RAMUSB200B,        USB\VID_04CA&PID_200B       ; LiteOn 4352 combo
+%BRCMBt40USB.DeviceDesc%=RAMUSB200C,        USB\VID_04CA&PID_200C       ; LiteOn 4352 combo
+%BtUSB.DeviceDesc%=RAMUSB200E,              USB\VID_04CA&PID_200E       ; Liteon 43228 NGFF combo
+%BRCMBt40USB.DeviceDesc%=RAMUSB200F,        USB\VID_04CA&PID_200F       ; Acer_LiteOn BCM20702A1_4352
+%BtUSB.DeviceDesc%=RAMUSB17CF,              USB\VID_0B05&PID_17CF       ; Asus 4352_20702A1 combo
+%AsusTrust.DeviceDesc%=RAMUSB01A3,          USB\VID_145F&PID_01A3       ; 20702A1 Asus Trust standalone
+%BRCM20702.DeviceDesc%=RAMUSB0221,          USB\VID_0930&PID_0221       ; 20702A1 Toshiba 4352
+%HP20702A1.DeviceDesc%=RAMUSB21FB,          USB\VID_0A5C&PID_21FB       ; HP Supra 4352 20702A1 combo
+%BRCM20702Combo.DeviceDesc%=RAMUSB21FD,     USB\VID_0A5C&PID_21FD       ; BRCM Generic 4352z RAMUSB
+%BRCM43142BtUsbhp.DeviceDesc%=RAMUSB21FE,   USB\VID_0A5C&PID_21FE       ; HP Vegas 43142 combo
+%BRCM20702Combo.DeviceDesc%=RAMUSB3411,     USB\VID_13D3&PID_3411       ; Dell Alienware 4352 20702A1 combo
+%BtUSB.DeviceDesc%=RAMUSB3413,              USB\VID_13D3&PID_3413       ; Azurewave 4360+20702 combo
+%BtUSB.DeviceDesc%=RAMUSB3418,              USB\VID_13D3&PID_3418       ; Azurewave 4352+20702 combo module
+%BRCM43142.DeviceDesc%=RAMUSB3427,          USB\VID_13D3&PID_3427       ; Toshiba 43142 combo NGFF
+%BRCM20702.DeviceDesc%=RAMUSB0223,          USB\VID_0930&PID_0223       ; 20702A1 Toshiba 4352
+%BRCM43142.DeviceDesc%=RAMUSB0225,          USB\VID_0930&PID_0225       ; Toshiba 43142 combo NGFF
+%BRCM43142.DeviceDesc%=RAMUSB0226,          USB\VID_0930&PID_0226       ; Toshiba 43142 combo NGFF
+%BRCM43142BtUsb.DeviceDesc%=RAMUSB2167,     USB\VID_0A5C&PID_2167       ; BRCM Generic 43142Y (NGFF)
+%BRCM43162BtUsb.DeviceDesc%=RAMUSB2168,     USB\VID_0A5C&PID_2168       ; BRCM Generic 43162Z
+%BRCM20702BtUsb.DeviceDesc%=RAMUSB2169,     USB\VID_0A5C&PID_2169       ; BRCM Generic 43228z
+%DellDW1708.DeviceDesc%=RAMUSB216A,         USB\VID_0A5C&PID_216A       ; Dell DW1708 43142Y combo
+%HP20702A1.DeviceDesc%=RAMUSB216B,          USB\VID_0A5C&PID_216B       ; HP Rapture 4352z ngff combo
+%BRCM43142BtUsbhp.DeviceDesc%=RAMUSB216C,   USB\VID_0A5C&PID_216C       ; HP Harrier 43142
+%BRCM43142BtUsbhp.DeviceDesc%=RAMUSB216D,   USB\VID_0A5C&PID_216D       ; HP Hornet 43142Y ngff combo
+%BtUSB.DeviceDesc%=RAMUSB3435,              USB\VID_13D3&PID_3435       ; AZUREWAVE BCM20702A1_4352
+%BtUSB.DeviceDesc%=RAMUSB3456,              USB\VID_13D3&PID_3456       ; AZUREWAVE BCM20702A1_4352
+%BRCMBt40USB.DeviceDesc%=RAMUSB185F_2167,   USB\VID_185F&PID_2167       ; LenovoChina_BCM43142A0_1.1.11.197_NGFF
+%BRCMBt40USB.DeviceDesc%=RAMUSBE079,        USB\VID_0489&PID_E079       ; Lenovo China 43162 NGFF
+%BtUSB.DeviceDesc%=RAMUSBE087,              USB\VID_0489&PID_E087       ; Acer 43228 NGFF combo module
+%BRCMBt40USB.DeviceDesc%=RAMUSBE096,        USB\VID_0489&PID_E096       ; BCM43142A0
+%BRCM43162Combo.DeviceDesc%=RAMUSB0229,     USB\VID_0930&PID_0229       ; 43162 combo NGFF
+%BRCMHPBlackbird.DeviceDesc%=RAMUSB216E,    USB\VID_0A5C&PID_216E       ; HP Blackbird 43162 NGFF
+%DellDW1560.DeviceDesc%=RAMUSB216F,         USB\VID_0A5C&PID_216F       ; Dell DW1560 4352+20702 M.2
+%BRCM4356.DeviceDesc%=RAMUSB640A,           USB\VID_0A5C&PID_640A       ; BRCM Generic Reference 4356
+%HP20702.DeviceDesc%=RAMUSB640B,            USB\VID_0A5C&PID_640B       ; HP Luffy 43228 + 20702 M.2
+%Zebra20702.DeviceDesc%=RAMUSB6417,         USB\VID_0A5C&PID_6417       ; Zebra 4352
+%BRCM20702B0.DeviceDesc%=RAMUSB0239,        USB\VID_19FF&PID_0239       ; Bestbuy 20702B0 micro
+%BtUSB.DeviceDesc%=RAMUSB180A,              USB\VID_0B05&PID_180A       ; Azurewave 4360+20702 combo
+%BRCMBt40USB.DeviceDesc%=RAMUSB2014,        USB\VID_04CA&PID_2014       ; Asus LiteOn BCM4356A2 NGFF
+%BRCMBt40USB.DeviceDesc%=RAMUSB2016,        USB\VID_04CA&PID_2016       ; Lenovo 43162 NGFF combo module
+%BRCMBt40USB.DeviceDesc%=RAMUSBE097,        USB\VID_0489&PID_E097       ; Acer Foxconn BCM4356A2 NGFF
+%BtUSB.DeviceDesc%=RAMUSB3473,              USB\VID_13D3&PID_3473       ; Asus AZUREWAVE BCM4356A2 NGFF
+%BtUSB.DeviceDesc%=RAMUSB3482,              USB\VID_13D3&PID_3482       ; AZUREWAVE BCM43142A0 NGFF
+%BtUSB.DeviceDesc%=RAMUSB3484,              USB\VID_13D3&PID_3484       ; Acer AZUREWAVE BCM43142A0 NGFF
+%BRCMBt40USB.DeviceDesc%=RAMUSB2013,        USB\VID_04CA&PID_2013       ; Acer LiteOn BCM4356A2 NGFF
+%BrcmBt41.DeviceDesc%=RAMUSB640E,           USB\VID_0A5C&PID_640E       ; Lenovo 4356 NGFF combo
+%BrcmBt41.DeviceDesc%=RAMUSB6414,           USB\VID_0A5C&PID_6414       ; Lenovo 4350C5
+%BRCM640D.DeviceDesc%=RAMUSB6413,           USB\VID_0A5C&PID_6413       ; Broadcom Generic 4350C5
+%DW1820.DeviceDesc%=RAMUSB6412,             USB\VID_0A5C&PID_6412       ; Dell 4350C5
+%BtUSB.DeviceDesc%=RAMUSBB49D,              USB\VID_04F2&PID_B49D       ; ASUS Chicony BCM43142A0 HM
+%BtUSB.DeviceDesc%=RAMUSBB4A1,              USB\VID_04F2&PID_B4A1       ; ASUS Chicony BCM43142A0 NGFF
+%BtUSB.DeviceDesc%=RAMUSBB4A2,              USB\VID_04F2&PID_B4A2       ; BCM4356A2
+%BtUSB.DeviceDesc%=RAMUSB181D,              USB\VID_0B05&PID_181D       ; Asus AZUREWAVE MB BCM4356A2
+%BtUSB.DeviceDesc%=RAMUSB3485,              USB\VID_13D3&PID_3485       ; Asus AZUREWAVE BCM4356A2 NB 2217NF
+%BtUSB.DeviceDesc%=RAMUSB3492,              USB\VID_13D3&PID_3492       ; Asus AZUREWAVE BCM4356A2 NGFF
+%BtUSB.DeviceDesc%=RAMUSB3488,              USB\VID_13D3&PID_3488       ; Asus AZUREWAVE BCM4356A2 NB 2210
+%BtUSB.DeviceDesc%=RAMUSB5600,              USB\VID_2B54&PID_5600       ; Emdoor AP6356SD BCM4356A2
+%AzBtModule.DeviceDesc%=RAMUSB5601,         USB\VID_2B54&PID_5601       ; Asus AP6356SDP1A BCM4356A2
+%AmBtModule.DeviceDesc%=RAMUSB5602,         USB\VID_2B54&PID_5602       ; AMPAK AP6356SDP2A BCM4356A2
+%DW1830.DeviceDesc%=RAMUSB6410,             USB\VID_0A5C&PID_6410       ; 20703A1 RAM download - DW1830 43602
+%BRCM20703A1.DeviceDesc%=RAMUSB0306,        USB\VID_0BB4&PID_0306       ; 20703A1 HTC runtime RAM dongle
+%BrcmBt41.DeviceDesc%=RAMUSBE0A1,           USB\VID_0489&PID_E0A1       ; 20703A1 Lenovo 43602 NGFF combo
+%BRCM20703A1.DeviceDesc%=RAMUSB7460,        USB\VID_0A5C&PID_7460       ; 20703A1 RAM download
+%HPBROOK4371.DeviceDesc%=RAMUSB6418,        USB\VID_0A5C&PID_6418       ; HP Brook 2x2ac
+%BtUSB.DeviceDesc%=RAMUSB3504,              USB\VID_13D3&PID_3504       ; AW CM217NF BCM4371C2
+%BtUSB.DeviceDesc%=RAMUSB3508,              USB\VID_13D3&PID_3508       ; AW ASUS CM217NF BCM4371C2
+%BtUSB.DeviceDesc%=RAMUSB3517,              USB\VID_13D3&PID_3517       ; AW CE160H BCM20702 
+
+; serial flash devices
+%BtUSB.DeviceDesc%=BCBTUsbDriverInstall,    USB\VID_0489&Pid_E033       ; Acer 20702 Serial FLASH
+%BRCM20702.DeviceDesc%=BCBTUsbDriverInstall,USB\VID_0A5C&PID_21E4       ; 20702A1 Serial Flash Dongle
+%BRCM20703.DeviceDesc%=BCBTUsbDriverInstall,USB\VID_0A5C&PID_745E       ; 20703A1 non-UHE Serial Flash
+
+
+[DestinationDirs]
+DefaultDestDir = 10,system32\drivers    ; system32\drivers
+
+[bcbtums.CopyList]
+bcbtums.sys
+btwampfl.sys
+
+[bcbtums.NT.AddReg]
+HKR,,LowerFilters, 0x00010000, "bcbtums"
+HKR,,%RemoteWakeEnabled%,0x00010001,1
+HKR,,%DeviceRemoteWakeSupported%,0x00010001,1
+
+
+[btwampfl.service]
+DisplayName      = %btwampfl.ServiceName%
+Description      = %btwampfl.ServiceDescription%
+ServiceBinary    = %12%\btwampfl.sys            ;%windir%\system32\drivers\
+ServiceType      = 1                            ;SERVICE_KERNEL_DRIVER
+StartType        = 3                            ;SERVICE_DEMAND_START
+ErrorControl     = 1                            ;SERVICE_ERROR_NORMAL
+
+[BCBTUMS_Service_Inst]
+DisplayName      = %BCBTUMS.SvcDesc%
+ServiceBinary    = %12%\bcbtums.sys             ;%windir%\system32\drivers\
+ServiceType      = 1                            ;SERVICE_KERNEL_DRIVER
+StartType        = 3                            ;SERVICE_DEMAND_START
+ErrorControl     = 1                            ;SERVICE_ERROR_NORMAL
+
+[BTWSECFL_EventLog_Inst]
+AddReg = BTWSECFL_EventLog_Inst.reg
+
+[BTWSECFL_EventLog_Inst.reg]
+HKR,,EventMessageFile,0x00020000,"%%SystemRoot%%\System32\IoLogMsg.dll;%%SystemRoot%%\System32\drivers\bcbtums.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[RAMUSBClean.hw.reg]
+HKR,,"RAMPatchFileName"
+
+[CM3Clean.hw.reg]
+HKR,,"UseCM3Workaround"
+
+;;;;;;;;;;;;;BCBTUsbDriverInstall;;;;;;;;;;;;;;;;;
+[BCBTUsbDriverInstall.NT]
+Include=Bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=bcbtums.CopyList
+
+[BCBTUsbDriverInstall.NT.HW]
+AddReg=bcbtums.NT.AddReg
+DelReg=RAMUSBClean.hw.reg       ; clean any rampatch registry
+Needs=BthUsb.NT.HW
+
+[BCBTUsbDriverInstall.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSBE032;;;;;;;;;;;;;;;;;
+[RAMUSBE032.CopyList]
+BCM20702A1_001.002.014.1443.1485.hex
+
+[RAMUSBE032.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSBE032.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSBE032.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSBE032.NT.hw.reg
+
+[RAMUSBE032.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1485.hex"
+HKR,,%DisallowProximity%,0x00010001,0    ; to allow, use DelReg or set to 0
+
+[RAMUSBE032.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB21E1;;;;;;;;;;;;;;;;;
+[RAMUSB21E1.CopyList]
+BCM20702A1_001.002.014.1502.1770.hex
+
+[RAMUSB21E1.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB21E1.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB21E1.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB21E1.NT.hw.reg
+
+[RAMUSB21E1.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1502.1770.hex"
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+
+[RAMUSB21E1.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB21E3;;;;;;;;;;;;;;;;;
+[RAMUSB21E3.CopyList]
+BCM20702A1_001.002.014.1502.1767.hex
+
+[RAMUSB21E3.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB21E3.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB21E3.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB21E3.NT.hw.reg
+
+[RAMUSB21E3.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1502.1767.hex"
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+
+[RAMUSB21E3.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB21E8;;;;;;;;;;;;;;;;;
+[RAMUSB21E8.CopyList]
+BCM20702A1_001.002.014.1502.1764.hex
+
+[RAMUSB21E8.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB21E8.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB21E8.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB21E8.NT.hw.reg
+
+[RAMUSB21E8.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1502.1764.hex"
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+
+[RAMUSB21E8.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSBE046;;;;;;;;;;;;;;;;;
+[RAMUSBE046.CopyList]
+BCM20702A1_001.002.014.1443.1465.hex
+
+[RAMUSBE046.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSBE046.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSBE046.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSBE046.NT.hw.reg
+
+[RAMUSBE046.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1465.hex"
+
+[RAMUSBE046.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB21EC;;;;;;;;;;;;;;;;;
+[RAMUSB21EC.CopyList]
+BCM20702A1_001.002.014.1443.1460.hex
+
+[RAMUSB21EC.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB21EC.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB21EC.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB21EC.NT.hw.reg
+
+[RAMUSB21EC.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1460.hex"
+
+[RAMUSB21EC.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB2003;;;;;;;;;;;;;;;;;
+[RAMUSB2003.CopyList]
+BCM20702A1_001.002.014.1443.1488.hex
+
+[RAMUSB2003.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB2003.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB2003.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB2003.NT.hw.reg
+
+[RAMUSB2003.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1488.hex"
+
+[RAMUSB2003.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSBE042;;;;;;;;;;;;;;;;;
+[RAMUSBE042.CopyList]
+BCM20702A1_001.002.014.1443.1484.hex
+
+[RAMUSBE042.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSBE042.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSBE042.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSBE042.NT.hw.reg
+
+[RAMUSBE042.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1484.hex"
+
+[RAMUSBE042.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSBE04F;;;;;;;;;;;;;;;;;
+[RAMUSBE04F.CopyList]
+BCM20702A1_001.002.014.1443.1486.hex
+
+[RAMUSBE04F.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSBE04F.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSBE04F.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSBE04F.NT.hw.reg
+
+[RAMUSBE04F.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1486.hex"
+
+[RAMUSBE04F.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB3384;;;;;;;;;;;;;;;;;
+[RAMUSB3384.CopyList]
+BCM20702A1_001.002.014.1443.1477.hex
+
+[RAMUSB3384.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB3384.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB3384.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB3384.NT.hw.reg
+
+[RAMUSB3384.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1477.hex"
+
+[RAMUSB3384.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB21E6;;;;;;;;;;;;;;;;;
+[RAMUSB21E6.CopyList]
+BCM20702A1_001.002.014.1502.1757.hex
+
+[RAMUSB21E6.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB21E6.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB21E6.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB21E6.NT.hw.reg
+
+[RAMUSB21E6.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1502.1757.hex"
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+
+[RAMUSB21E6.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB21F3;;;;;;;;;;;;;;;;;
+[RAMUSB21F3.CopyList]
+BCM20702A1_001.002.014.1502.1761.hex
+
+[RAMUSB21F3.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB21F3.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB21F3.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB21F3.NT.hw.reg
+
+[RAMUSB21F3.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1502.1761.hex"
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+
+[RAMUSB21F3.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB21F4;;;;;;;;;;;;;;;;;
+[RAMUSB21F4.CopyList]
+BCM20702A1_001.002.014.1502.1760.hex
+
+[RAMUSB21F4.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB21F4.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB21F4.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB21F4.NT.hw.reg
+
+[RAMUSB21F4.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1502.1760.hex"
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+
+[RAMUSB21F4.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSBE052;;;;;;;;;;;;;;;;;
+[RAMUSBE052.CopyList]
+BCM20702A1_001.002.014.1502.1758.hex
+
+[RAMUSBE052.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSBE052.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSBE052.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSBE052.NT.hw.reg
+
+[RAMUSBE052.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1502.1758.hex"
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+
+[RAMUSBE052.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB21F1;;;;;;;;;;;;;;;;;
+[RAMUSB21F1.CopyList]
+BCM20702A1_001.002.014.1502.1765.hex
+
+[RAMUSB21F1.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB21F1.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB21F1.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB21F1.NT.hw.reg
+
+[RAMUSB21F1.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1502.1765.hex"
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+
+[RAMUSB21F1.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB21D3;;;;;;;;;;;;;;;;;
+[RAMUSB21D3.CopyList]
+BCM43142A0_001.001.011.0197.0218.hex
+
+[RAMUSB21D3.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB21D3.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB21D3.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB21D3.NT.hw.reg
+
+[RAMUSB21D3.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0197.0218.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSB21D3.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSBE062;;;;;;;;;;;;;;;;;
+[RAMUSBE062.CopyList]
+BCM43142A0_001.001.011.0277.0280.hex
+
+[RAMUSBE062.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSBE062.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSBE062.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSBE062.NT.hw.reg
+
+[RAMUSBE062.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0277.0280.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSBE062.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSBE07A;;;;;;;;;;;;;;;;;
+[RAMUSBE07A.CopyList]
+BCM20702A1_001.002.014.1483.1651.hex
+
+[RAMUSBE07A.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSBE07A.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSBE07A.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSBE07A.NT.hw.reg
+
+[RAMUSBE07A.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1483.1651.hex"
+
+[RAMUSBE07A.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB21D6;;;;;;;;;;;;;;;;;
+[RAMUSB21D6.CopyList]
+BCM43142A0_001.001.011.0197.0220.hex
+
+[RAMUSB21D6.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB21D6.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB21D6.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB21D6.NT.hw.reg
+
+[RAMUSB21D6.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0197.0220.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSB21D6.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB21D7;;;;;;;;;;;;;;;;;
+[RAMUSB21D7.CopyList]
+BCM43142A0_001.001.011.0311.0341.hex
+
+[RAMUSB21D7.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB21D7.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB21D7.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB21D7.NT.hw.reg
+
+[RAMUSB21D7.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0311.0341.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSB21D7.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB21D8;;;;;;;;;;;;;;;;;
+[RAMUSB21D8.CopyList]
+BCM43142A0_001.001.011.0197.0222.hex
+
+[RAMUSB21D8.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB21D8.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB21D8.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB21D8.NT.hw.reg
+
+[RAMUSB21D8.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0197.0222.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSB21D8.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB3388;;;;;;;;;;;;;;;;;
+[RAMUSB3388.CopyList]
+BCM43142A0_001.001.011.0311.0332.hex
+
+[RAMUSB3388.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB3388.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB3388.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB3388.NT.hw.reg
+
+[RAMUSB3388.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0311.0332.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSB3388.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB3389;;;;;;;;;;;;;;;;;
+[RAMUSB3389.CopyList]
+BCM43142A0_001.001.011.0311.0333.hex
+
+[RAMUSB3389.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB3389.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB3389.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB3389.NT.hw.reg
+
+[RAMUSB3389.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0311.0333.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSB3389.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB17B5;;;;;;;;;;;;;;;;;
+[RAMUSB17B5.CopyList]
+BCM20702A1_001.002.014.1443.1468.hex
+
+[RAMUSB17B5.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB17B5.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB17B5.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB17B5.NT.hw.reg
+
+[RAMUSB17B5.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1468.hex"
+
+[RAMUSB17B5.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB021E;;;;;;;;;;;;;;;;;
+[RAMUSB021E.CopyList]
+BCM20702A1_001.002.014.1502.1759.hex
+
+[RAMUSB021E.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB021E.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB021E.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB021E.NT.hw.reg
+
+[RAMUSB021E.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1502.1759.hex"
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+
+[RAMUSB021E.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSBE055;;;;;;;;;;;;;;;;;
+[RAMUSBE055.CopyList]
+BCM43142A0_001.001.011.0311.0331.hex
+
+[RAMUSBE055.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSBE055.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSBE055.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSBE055.NT.hw.reg
+
+[RAMUSBE055.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0311.0331.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSBE055.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB3392;;;;;;;;;;;;;;;;;
+[RAMUSB3392.CopyList]
+BCM20702A1_001.002.014.1443.1478.hex
+
+[RAMUSB3392.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB3392.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB3392.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB3392.NT.hw.reg
+
+[RAMUSB3392.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1478.hex"
+
+[RAMUSB3392.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB8197;;;;;;;;;;;;;;;;;
+[RAMUSB8197.CopyList]
+BCM20702A1_001.002.014.1443.1447.hex
+
+[RAMUSB8197.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB8197.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB8197.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB8197.NT.hw.reg
+
+[RAMUSB8197.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1447.hex"
+
+[RAMUSB8197.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB2004;;;;;;;;;;;;;;;;;
+[RAMUSB2004.CopyList]
+BCM20702A1_001.002.014.1443.1489.hex
+
+[RAMUSB2004.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB2004.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB2004.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB2004.NT.hw.reg
+
+[RAMUSB2004.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1489.hex"
+
+[RAMUSB2004.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSBE059;;;;;;;;;;;;;;;;;
+[RAMUSBE059.CopyList]
+BCM20702A1_001.002.014.1443.1466.hex
+
+[RAMUSBE059.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSBE059.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSBE059.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSBE059.NT.hw.reg
+
+[RAMUSBE059.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1466.hex"
+
+[RAMUSBE059.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB21DC;;;;;;;;;;;;;;;;;
+[RAMUSB21DC.CopyList]
+BCM43142A0_001.001.011.0161.0187.hex
+
+[RAMUSB21DC.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB21DC.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB21DC.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB21DC.NT.hw.reg
+
+[RAMUSB21DC.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0161.0187.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSB21DC.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSBE066;;;;;;;;;;;;;;;;;
+[RAMUSBE066.CopyList]
+BCM20702A1_001.002.014.1443.1487.hex
+
+[RAMUSBE066.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSBE066.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSBE066.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSBE066.NT.hw.reg
+
+[RAMUSBE066.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1487.hex"
+
+[RAMUSBE066.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSBE065;;;;;;;;;;;;;;;;;
+[RAMUSBE065.CopyList]
+BCM43142A0_001.001.011.0311.0312.hex
+
+[RAMUSBE065.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSBE065.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSBE065.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSBE065.NT.hw.reg
+
+[RAMUSBE065.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0311.0312.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSBE065.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB2005;;;;;;;;;;;;;;;;;
+[RAMUSB2005.CopyList]
+BCM20702A1_001.002.014.1443.1490.hex
+
+[RAMUSB2005.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB2005.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB2005.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB2005.NT.hw.reg
+
+[RAMUSB2005.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1490.hex"
+
+[RAMUSB2005.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB21DE;;;;;;;;;;;;;;;;;
+[RAMUSB21DE.CopyList]
+BCM20702A1_001.002.014.1443.1461.hex
+
+[RAMUSB21DE.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB21DE.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB21DE.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB21DE.NT.hw.reg
+
+[RAMUSB21DE.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1461.hex"
+
+[RAMUSB21DE.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB8143;;;;;;;;;;;;;;;;;
+[RAMUSB8143.CopyList]
+BCM20702A1_001.002.014.1443.1449.hex
+
+[RAMUSB8143.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB8143.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB8143.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB8143.NT.hw.reg
+
+[RAMUSB8143.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1449.hex"
+
+[RAMUSB8143.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB2006;;;;;;;;;;;;;;;;;
+[RAMUSB2006.CopyList]
+BCM43142A0_001.001.011.0311.0327.hex
+
+[RAMUSB2006.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB2006.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB2006.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB2006.NT.hw.reg
+
+[RAMUSB2006.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0311.0327.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSB2006.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB2007;;;;;;;;;;;;;;;;;
+[RAMUSB2007.CopyList]
+BCM43142A0_001.001.011.0277.0279.hex
+
+[RAMUSB2007.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB2007.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB2007.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB2007.NT.hw.reg
+
+[RAMUSB2007.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0277.0279.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSB2007.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB2009;;;;;;;;;;;;;;;;;
+[RAMUSB2009.CopyList]
+BCM43142A0_001.001.011.0311.0330.hex
+
+[RAMUSB2009.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB2009.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB2009.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB2009.NT.hw.reg
+
+[RAMUSB2009.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0311.0330.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSB2009.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB2012;;;;;;;;;;;;;;;;;
+[RAMUSB2012.CopyList]
+BCM43142A0_001.001.011.0311.0339.hex
+
+[RAMUSB2012.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB2012.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB2012.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB2012.NT.hw.reg
+
+[RAMUSB2012.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0311.0339.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSB2012.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB3404;;;;;;;;;;;;;;;;;
+[RAMUSB3404.CopyList]
+BCM20702A1_001.002.014.1443.1479.hex
+
+[RAMUSB3404.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB3404.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB3404.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB3404.NT.hw.reg
+
+[RAMUSB3404.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1479.hex"
+
+[RAMUSB3404.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB021F;;;;;;;;;;;;;;;;;
+[RAMUSB021F.CopyList]
+BCM43142A0_001.001.011.0311.0335.hex
+
+[RAMUSB021F.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB021F.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB021F.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB021F.NT.hw.reg
+
+[RAMUSB021F.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0311.0335.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSB021F.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB17CB;;;;;;;;;;;;;;;;;
+[RAMUSB17CB.CopyList]
+BCM20702A1_001.002.014.1443.1467.hex
+
+[RAMUSB17CB.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB17CB.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB17CB.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB17CB.NT.hw.reg
+
+[RAMUSB17CB.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1467.hex"
+
+[RAMUSB17CB.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB065A;;;;;;;;;;;;;;;;;
+[RAMUSB065A.CopyList]
+BCM20702A1_001.002.014.1443.1482.hex
+
+[RAMUSB065A.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB065A.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB065A.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB065A.NT.hw.reg
+
+[RAMUSB065A.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1482.hex"
+
+[RAMUSB065A.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB200A;;;;;;;;;;;;;;;;;
+[RAMUSB200A.CopyList]
+BCM20702A1_001.002.014.1443.1492.hex
+
+[RAMUSB200A.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB200A.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB200A.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB200A.NT.hw.reg
+
+[RAMUSB200A.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1492.hex"
+
+[RAMUSB200A.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB200B;;;;;;;;;;;;;;;;;
+[RAMUSB200B.CopyList]
+BCM20702A1_001.002.014.1443.1493.hex
+
+[RAMUSB200B.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB200B.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB200B.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB200B.NT.hw.reg
+
+[RAMUSB200B.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1493.hex"
+
+[RAMUSB200B.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB200C;;;;;;;;;;;;;;;;;
+[RAMUSB200C.CopyList]
+BCM20702A1_001.002.014.1443.1494.hex
+
+[RAMUSB200C.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB200C.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB200C.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB200C.NT.hw.reg
+
+[RAMUSB200C.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1494.hex"
+
+[RAMUSB200C.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB200E;;;;;;;;;;;;;;;;;
+[RAMUSB200E.CopyList]
+BCM20702A1_001.002.014.1443.1499.hex
+
+[RAMUSB200E.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB200E.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB200E.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB200E.NT.hw.reg
+
+[RAMUSB200E.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1499.hex"
+
+[RAMUSB200E.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB200F;;;;;;;;;;;;;;;;;
+[RAMUSB200F.CopyList]
+BCM20702A1_001.002.014.1443.1521.hex
+
+[RAMUSB200F.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB200F.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB200F.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB200F.NT.hw.reg
+
+[RAMUSB200F.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1521.hex"
+
+[RAMUSB200F.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB17CF;;;;;;;;;;;;;;;;;
+[RAMUSB17CF.CopyList]
+BCM20702A1_001.002.014.1443.1469.hex
+
+[RAMUSB17CF.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB17CF.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB17CF.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB17CF.NT.hw.reg
+
+[RAMUSB17CF.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1469.hex"
+
+[RAMUSB17CF.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB01A3;;;;;;;;;;;;;;;;;
+[RAMUSB01A3.CopyList]
+BCM20702A1_001.002.014.1443.1483.hex
+
+[RAMUSB01A3.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB01A3.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB01A3.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB01A3.NT.hw.reg
+
+[RAMUSB01A3.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1483.hex"
+
+[RAMUSB01A3.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB0221;;;;;;;;;;;;;;;;;
+[RAMUSB0221.CopyList]
+BCM20702A1_001.002.014.1502.1762.hex
+
+[RAMUSB0221.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB0221.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB0221.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB0221.NT.hw.reg
+
+[RAMUSB0221.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1502.1762.hex"
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+
+[RAMUSB0221.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB0223;;;;;;;;;;;;;;;;;
+[RAMUSB0223.CopyList]
+BCM20702A1_001.002.014.1502.1763.hex
+
+[RAMUSB0223.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB0223.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB0223.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB0223.NT.hw.reg
+
+[RAMUSB0223.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1502.1763.hex"
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+
+[RAMUSB0223.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB0225;;;;;;;;;;;;;;;;;
+[RAMUSB0225.CopyList]
+BCM43142A0_001.001.011.0311.0334.hex
+
+[RAMUSB0225.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB0225.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB0225.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB0225.NT.hw.reg
+
+[RAMUSB0225.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0311.0334.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSB0225.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB0226;;;;;;;;;;;;;;;;;
+[RAMUSB0226.CopyList]
+BCM43142A0_001.001.011.0311.0334.hex
+
+[RAMUSB0226.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB0226.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB0226.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB0226.NT.hw.reg
+
+[RAMUSB0226.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0311.0334.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSB0226.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB21FB;;;;;;;;;;;;;;;;;
+[RAMUSB21FB.CopyList]
+BCM20702A1_001.002.014.1502.1766.hex
+
+[RAMUSB21FB.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB21FB.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB21FB.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB21FB.NT.hw.reg
+
+[RAMUSB21FB.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1502.1766.hex"
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+
+[RAMUSB21FB.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB21FD;;;;;;;;;;;;;;;;;
+[RAMUSB21FD.CopyList]
+BCM20702A1_001.002.014.1443.1463.hex
+
+[RAMUSB21FD.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB21FD.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB21FD.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB21FD.NT.hw.reg
+
+[RAMUSB21FD.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1463.hex"
+
+[RAMUSB21FD.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB21FE;;;;;;;;;;;;;;;;;
+[RAMUSB21FE.CopyList]
+BCM43142A0_001.001.011.0161.0186.hex
+
+[RAMUSB21FE.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB21FE.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB21FE.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB21FE.NT.hw.reg
+
+[RAMUSB21FE.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0161.0186.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSB21FE.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB3411;;;;;;;;;;;;;;;;;
+[RAMUSB3411.CopyList]
+BCM20702A1_001.002.014.1443.1450.hex
+
+[RAMUSB3411.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB3411.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB3411.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB3411.NT.hw.reg
+
+[RAMUSB3411.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1450.hex"
+
+[RAMUSB3411.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB3413;;;;;;;;;;;;;;;;;
+[RAMUSB3413.CopyList]
+BCM20702A1_001.002.014.1443.1481.hex
+
+[RAMUSB3413.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB3413.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB3413.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB3413.NT.hw.reg
+
+[RAMUSB3413.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1481.hex"
+
+[RAMUSB3413.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB180A;;;;;;;;;;;;;;;;;
+[RAMUSB180A.CopyList]
+BCM20702A1_001.002.014.1443.1714.hex
+
+[RAMUSB180A.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB180A.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB180A.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB180A.NT.hw.reg
+
+[RAMUSB180A.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1714.hex"
+
+[RAMUSB180A.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB2014;;;;;;;;;;;;;;;;;
+[RAMUSB2014.CopyList]
+BCM4356A2_001.003.015.0046.0120.hex
+
+[RAMUSB2014.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB2014.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB2014.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB2014.NT.hw.reg
+
+[RAMUSB2014.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM4356A2_001.003.015.0046.0120.hex"
+HKR,,"LEScanParametersFix",0x10001, 1
+
+[RAMUSB2014.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB5600;;;;;;;;;;;;;;;;;
+[RAMUSB5600.CopyList]
+BCM4356A2_001.003.015.0082.0258.hex
+
+[RAMUSB5600.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB5600.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB5600.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB5600.NT.hw.reg
+
+[RAMUSB5600.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM4356A2_001.003.015.0082.0258.hex"
+HKR,,"LEScanParametersFix",0x10001, 1
+
+[RAMUSB5600.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB5601;;;;;;;;;;;;;;;;;
+[RAMUSB5601.CopyList]
+BCM4356A2_001.003.015.0082.0259.hex
+
+[RAMUSB5601.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB5601.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB5601.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB5601.NT.hw.reg
+
+[RAMUSB5601.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM4356A2_001.003.015.0082.0259.hex"
+HKR,,"LEScanParametersFix",0x10001, 1
+
+[RAMUSB5601.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB5602;;;;;;;;;;;;;;;;;
+[RAMUSB5602.CopyList]
+BCM4356A2_001.003.015.0082.0257.hex
+
+[RAMUSB5602.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB5602.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB5602.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB5602.NT.hw.reg
+
+[RAMUSB5602.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM4356A2_001.003.015.0082.0257.hex"
+HKR,,"LEScanParametersFix",0x10001, 1
+
+[RAMUSB5602.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB2016;;;;;;;;;;;;;;;;;
+[RAMUSB2016.CopyList]
+BCM4335C0_003.001.009.0066.0121.hex
+
+[RAMUSB2016.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB2016.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB2016.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB2016.NT.hw.reg
+
+[RAMUSB2016.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM4335C0_003.001.009.0066.0121.hex"
+
+[RAMUSB2016.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSBE097;;;;;;;;;;;;;;;;;
+[RAMUSBE097.CopyList]
+BCM4356A2_001.003.015.0046.0104.hex
+
+[RAMUSBE097.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSBE097.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSBE097.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSBE097.NT.hw.reg
+
+[RAMUSBE097.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM4356A2_001.003.015.0046.0104.hex"
+HKR,,"LEScanParametersFix",0x10001, 1
+
+[RAMUSBE097.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB3473;;;;;;;;;;;;;;;;;
+[RAMUSB3473.CopyList]
+BCM4356A2_001.003.015.0046.0125.hex
+
+[RAMUSB3473.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB3473.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB3473.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB3473.NT.hw.reg
+
+[RAMUSB3473.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM4356A2_001.003.015.0046.0125.hex"
+HKR,,"LEScanParametersFix",0x10001, 1
+
+[RAMUSB3473.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB3485;;;;;;;;;;;;;;;;;
+[RAMUSB3485.CopyList]
+BCM4356A2_001.003.015.0046.0197.hex
+
+[RAMUSB3485.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB3485.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB3485.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB3485.NT.hw.reg
+
+[RAMUSB3485.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM4356A2_001.003.015.0046.0197.hex"
+HKR,,"LEScanParametersFix",0x10001, 1
+
+[RAMUSB3485.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB3492;;;;;;;;;;;;;;;;;
+[RAMUSB3492.CopyList]
+BCM4356A2_001.003.015.0046.0195.hex
+
+[RAMUSB3492.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB3492.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB3492.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB3492.NT.hw.reg
+
+[RAMUSB3492.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM4356A2_001.003.015.0046.0195.hex"
+HKR,,"LEScanParametersFix",0x10001, 1
+
+[RAMUSB3492.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB3488;;;;;;;;;;;;;;;;;
+[RAMUSB3488.CopyList]
+BCM4356A2_001.003.015.0046.0127.hex
+
+[RAMUSB3488.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB3488.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB3488.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB3488.NT.hw.reg
+
+[RAMUSB3488.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM4356A2_001.003.015.0046.0127.hex"
+HKR,,"LEScanParametersFix",0x10001, 1
+
+[RAMUSB3488.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB3482;;;;;;;;;;;;;;;;;
+[RAMUSB3482.CopyList]
+BCM43142A0_001.001.011.0311.0346.hex
+
+[RAMUSB3482.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB3482.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB3482.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB3482.NT.hw.reg
+
+[RAMUSB3482.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0311.0346.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSB3482.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB3484;;;;;;;;;;;;;;;;;
+[RAMUSB3484.CopyList]
+BCM43142A0_001.001.011.0311.0347.hex
+
+[RAMUSB3484.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB3484.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB3484.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB3484.NT.hw.reg
+
+[RAMUSB3484.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0311.0347.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSB3484.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB2013;;;;;;;;;;;;;;;;;
+[RAMUSB2013.CopyList]
+BCM4356A2_001.003.015.0046.0122.hex
+
+[RAMUSB2013.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB2013.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB2013.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB2013.NT.hw.reg
+
+[RAMUSB2013.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM4356A2_001.003.015.0046.0122.hex"
+HKR,,"LEScanParametersFix",0x10001, 1
+
+[RAMUSB2013.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB3418;;;;;;;;;;;;;;;;;
+[RAMUSB3418.CopyList]
+BCM20702A1_001.002.014.1443.1480.hex
+
+[RAMUSB3418.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB3418.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB3418.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB3418.NT.hw.reg
+
+[RAMUSB3418.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1480.hex"
+
+[RAMUSB3418.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB3427;;;;;;;;;;;;;;;;;
+[RAMUSB3427.CopyList]
+BCM43142A0_001.001.011.0311.0334.hex
+
+[RAMUSB3427.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB3427.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB3427.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB3427.NT.hw.reg
+
+[RAMUSB3427.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0311.0334.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSB3427.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB2167;;;;;;;;;;;;;;;;;
+[RAMUSB2167.CopyList]
+BCM43142A0_001.001.011.0249.0265.hex
+
+[RAMUSB2167.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB2167.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB2167.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB2167.NT.hw.reg
+
+[RAMUSB2167.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0249.0265.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSB2167.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB2168;;;;;;;;;;;;;;;;;
+[RAMUSB2168.CopyList]
+BCM4335C0_003.001.009.0066.0108.hex
+
+[RAMUSB2168.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB2168.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB2168.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB2168.NT.hw.reg
+
+[RAMUSB2168.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM4335C0_003.001.009.0066.0108.hex"
+
+[RAMUSB2168.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB2169;;;;;;;;;;;;;;;;;
+[RAMUSB2169.CopyList]
+BCM20702A1_001.002.014.1443.1462.hex
+
+[RAMUSB2169.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB2169.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB2169.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB2169.NT.hw.reg
+
+[RAMUSB2169.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1462.hex"
+
+[RAMUSB2169.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB216A;;;;;;;;;;;;;;;;;
+[RAMUSB216A.CopyList]
+BCM43142A0_001.001.011.0311.0336.hex
+
+[RAMUSB216A.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB216A.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB216A.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB216A.NT.hw.reg
+
+[RAMUSB216A.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0311.0336.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSB216A.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB216B;;;;;;;;;;;;;;;;;
+[RAMUSB216B.CopyList]
+BCM20702A1_001.002.014.1502.1768.hex
+
+[RAMUSB216B.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB216B.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB216B.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB216B.NT.hw.reg
+
+[RAMUSB216B.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1502.1768.hex"
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+
+[RAMUSB216B.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB3435;;;;;;;;;;;;;;;;;
+[RAMUSB3435.CopyList]
+BCM20702A1_001.002.014.1443.1501.hex
+
+[RAMUSB3435.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB3435.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB3435.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB3435.NT.hw.reg
+
+[RAMUSB3435.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1501.hex"
+
+[RAMUSB3435.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB3456;;;;;;;;;;;;;;;;;
+[RAMUSB3456.CopyList]
+BCM20702A1_001.002.014.1443.1502.hex
+
+[RAMUSB3456.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB3456.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB3456.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB3456.NT.hw.reg
+
+[RAMUSB3456.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1502.hex"
+
+[RAMUSB3456.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB185F_2167;;;;;;;;;;;;;;;;;
+[RAMUSB185F_2167.CopyList]
+BCM43142A0_001.001.011.0277.0292.hex
+
+[RAMUSB185F_2167.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB185F_2167.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB185F_2167.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB185F_2167.NT.hw.reg
+
+[RAMUSB185F_2167.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0277.0292.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSB185F_2167.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSBE079;;;;;;;;;;;;;;;;;
+[RAMUSBE079.CopyList]
+BCM4335C0_003.001.009.0066.0115.hex
+
+[RAMUSBE079.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSBE079.CopyList
+CopyFiles=bcbtums.CopyList
+
+
+[RAMUSBE079.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSBE079.NT.hw.reg
+DelReg=CM3Clean.hw.reg
+
+[RAMUSBE079.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM4335C0_003.001.009.0066.0115.hex"
+
+[RAMUSBE079.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSBE087;;;;;;;;;;;;;;;;;
+[RAMUSBE087.CopyList]
+BCM20702A1_001.002.014.1443.1532.hex
+
+[RAMUSBE087.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSBE087.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSBE087.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSBE087.NT.hw.reg
+
+[RAMUSBE087.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1532.hex"
+
+[RAMUSBE087.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSBE096;;;;;;;;;;;;;;;;;
+[RAMUSBE096.CopyList]
+BCM43142A0_001.001.011.0311.0340.hex
+
+[RAMUSBE096.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSBE096.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSBE096.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSBE096.NT.hw.reg
+
+[RAMUSBE096.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0311.0340.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSBE096.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB0229;;;;;;;;;;;;;;;;;
+[RAMUSB0229.CopyList]
+BCM4335C0_003.001.009.0066.0104.hex
+
+[RAMUSB0229.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB0229.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB0229.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB0229.NT.hw.reg
+DelReg=CM3Clean.hw.reg
+
+[RAMUSB0229.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM4335C0_003.001.009.0066.0104.hex"
+
+[RAMUSB0229.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB216E;;;;;;;;;;;;;;;;;
+[RAMUSB216E.CopyList]
+BCM4335C0_003.001.009.0066.0105.hex
+
+[RAMUSB216E.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB216E.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB216E.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB216E.NT.hw.reg
+DelReg=CM3Clean.hw.reg
+
+[RAMUSB216E.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM4335C0_003.001.009.0066.0105.hex"
+
+[RAMUSB216E.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB216F;;;;;;;;;;;;;;;;;
+[RAMUSB216F.CopyList]
+BCM20702A1_001.002.014.1443.1572.hex
+
+[RAMUSB216F.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB216F.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB216F.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB216F.NT.hw.reg
+
+[RAMUSB216F.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1443.1572.hex"
+
+[RAMUSB216F.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB640A;;;;;;;;;;;;;;;;;
+[RAMUSB640A.CopyList]
+BCM4356A2_001.003.015.0080.0225.hex
+
+[RAMUSB640A.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB640A.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB640A.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB640A.NT.hw.reg
+
+[RAMUSB640A.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM4356A2_001.003.015.0080.0225.hex"
+HKR,,"LEScanParametersFix",0x10001, 1
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+
+[RAMUSB640A.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB640E;;;;;;;;;;;;;;;;;
+[RAMUSB640E.CopyList]
+BCM4356A2_001.003.015.0082.0255.hex
+
+[RAMUSB640E.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB640E.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB640E.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB640E.NT.hw.reg
+
+[RAMUSB640E.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM4356A2_001.003.015.0082.0255.hex"
+HKR,,"LEScanParametersFix",0x10001, 1
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+
+[RAMUSB640E.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB6412;;;;;;;;;;;;;;;;;
+[RAMUSB6412.CopyList]
+BCM4350C5_003.006.007.0221.4688.hex
+
+[RAMUSB6412.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB6412.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB6412.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB6412.NT.hw.reg
+
+[RAMUSB6412.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM4350C5_003.006.007.0221.4688.hex"
+HKR,,"LEScanParametersFix",0x10001, 1
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+
+[RAMUSB6412.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB6413;;;;;;;;;;;;;;;;;
+[RAMUSB6413.CopyList]
+BCM4350C5_003.006.007.0120.2118.hex
+
+[RAMUSB6413.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB6413.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB6413.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB6413.NT.hw.reg
+
+[RAMUSB6413.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM4350C5_003.006.007.0120.2118.hex"
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+HKR,,"LEScanParametersFix",0x10001, 1
+
+[RAMUSB6413.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB6414;;;;;;;;;;;;;;;;;
+[RAMUSB6414.CopyList]
+BCM4350C5_003.006.007.0145.2724.hex
+
+[RAMUSB6414.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB6414.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB6414.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB6414.NT.hw.reg
+
+[RAMUSB6414.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM4350C5_003.006.007.0145.2724.hex"
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+HKR,,"LEScanParametersFix",0x10001, 1
+
+[RAMUSB6414.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB6410;;;;;;;;;;;;;;;;;
+[RAMUSB6410.CopyList]
+BCM20703A1_001.001.005.0214.0422.hex
+
+[RAMUSB6410.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB6410.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB6410.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB6410.NT.hw.reg
+
+[RAMUSB6410.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20703A1_001.001.005.0214.0422.hex"
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+HKR,,"LEScanParametersFix",0x10001, 1
+
+[RAMUSB6410.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB0306;;;;;;;;;;;;;;;;;
+[RAMUSB0306.CopyList]
+BCM20703A1_001.001.005.0214.0481.hex
+
+[RAMUSB0306.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB0306.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB0306.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB0306.NT.hw.reg
+
+[RAMUSB0306.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20703A1_001.001.005.0214.0481.hex"
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+HKR,,"LEScanParametersFix",0x10001, 1
+
+[RAMUSB0306.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSBE0A1;;;;;;;;;;;;;;;;;
+[RAMUSBE0A1.CopyList]
+BCM20703A1_001.001.005.0214.0414.hex
+
+[RAMUSBE0A1.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSBE0A1.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSBE0A1.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSBE0A1.NT.hw.reg
+
+[RAMUSBE0A1.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20703A1_001.001.005.0214.0414.hex"
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+HKR,,"LEScanParametersFix",0x10001, 1
+
+[RAMUSBE0A1.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB181D;;;;;;;;;;;;;;;;;
+[RAMUSB181D.CopyList]
+BCM4356A2_001.003.015.0046.0132.hex
+
+[RAMUSB181D.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB181D.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB181D.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB181D.NT.hw.reg
+
+[RAMUSB181D.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM4356A2_001.003.015.0046.0132.hex"
+HKR,,"LEScanParametersFix",0x10001, 1
+
+[RAMUSB181D.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB640B;;;;;;;;;;;;;;;;;
+[RAMUSB640B.CopyList]
+BCM20702A1_001.002.014.1502.1769.hex
+
+[RAMUSB640B.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB640B.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB640B.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB640B.NT.hw.reg
+
+[RAMUSB640B.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1502.1769.hex"
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+
+[RAMUSB640B.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB6417;;;;;;;;;;;;;;;;;
+[RAMUSB6417.CopyList]
+BCM20702A1_001.002.014.1502.1780.hex
+
+[RAMUSB6417.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB6417.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB6417.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB6417.NT.hw.reg
+
+[RAMUSB6417.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1502.1780.hex"
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+
+[RAMUSB6417.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB0239;;;;;;;;;;;;;;;;;
+[RAMUSB0239.CopyList]
+BCM20702B0_002.001.014.0527.0557.hex
+
+[RAMUSB0239.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB0239.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB0239.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB0239.NT.hw.reg
+
+[RAMUSB0239.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702B0_002.001.014.0527.0557.hex"
+
+[RAMUSB0239.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB216C;;;;;;;;;;;;;;;;;
+[RAMUSB216C.CopyList]
+BCM43142A0_001.001.011.0311.0328.hex
+
+[RAMUSB216C.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB216C.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB216C.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB216C.NT.hw.reg
+
+[RAMUSB216C.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0311.0328.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSB216C.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB216D;;;;;;;;;;;;;;;;;
+[RAMUSB216D.CopyList]
+BCM43142A0_001.001.011.0311.0329.hex
+
+[RAMUSB216D.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB216D.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB216D.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB216D.NT.hw.reg
+
+[RAMUSB216D.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0311.0329.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSB216D.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSBB49D;;;;;;;;;;;;;;;;;
+[RAMUSBB49D.CopyList]
+BCM43142A0_001.001.011.0277.0308.hex
+
+[RAMUSBB49D.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSBB49D.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSBB49D.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSBB49D.NT.hw.reg
+
+[RAMUSBB49D.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0277.0308.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSBB49D.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSBB4A1;;;;;;;;;;;;;;;;;
+[RAMUSBB4A1.CopyList]
+BCM43142A0_001.001.011.0311.0316.hex
+
+[RAMUSBB4A1.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSBB4A1.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSBB4A1.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSBB4A1.NT.hw.reg
+
+[RAMUSBB4A1.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM43142A0_001.001.011.0311.0316.hex"
+HKR,,"UseCM3Workaround",0x00010001,1
+
+[RAMUSBB4A1.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSBB4A2;;;;;;;;;;;;;;;;;
+[RAMUSBB4A2.CopyList]
+BCM4356A2_001.003.015.0046.0183.hex
+
+[RAMUSBB4A2.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSBB4A2.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSBB4A2.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSBB4A2.NT.hw.reg
+
+[RAMUSBB4A2.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM4356A2_001.003.015.0046.0183.hex"
+
+[RAMUSBB4A2.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB7460;;;;;;;;;;;;;;;;;
+[RAMUSB7460.CopyList]
+BCM20703A1_001.001.005.0214.0473.hex
+
+[RAMUSB7460.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB7460.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB7460.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB7460.NT.hw.reg
+
+[RAMUSB7460.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20703A1_001.001.005.0214.0473.hex"
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+HKR,,"LEScanParametersFix",0x10001, 1
+
+[RAMUSB7460.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB6418;;;;;;;;;;;;;;;;;
+[RAMUSB6418.CopyList]
+BCM4371C2_001.003.015.0093.0116.hex
+
+[RAMUSB6418.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB6418.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB6418.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB6418.NT.hw.reg
+
+[RAMUSB6418.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM4371C2_001.003.015.0093.0116.hex"
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+
+[RAMUSB6418.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB6419;;;;;;;;;;;;;;;;;
+
+[RAMUSB6419.CopyList]
+bcbtums.sys
+btwampfl.sys
+BCM4356A2_001.003.015.0095.0292.hex
+
+[RAMUSB6419.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB6419.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB6419.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB6419.NT.hw.reg
+
+[RAMUSB6419.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM4356A2_001.003.015.0095.0292.hex"
+HKR,,"LEScanParametersFix",0x10001, 1
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+
+[RAMUSB6419.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB6420;;;;;;;;;;;;;;;;;
+
+[RAMUSB6420.CopyList]
+bcbtums.sys
+btwampfl.sys
+BCM4356A2_001.003.015.0095.0293.hex
+
+[RAMUSB6420.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB6420.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB6420.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB6420.NT.hw.reg
+
+[RAMUSB6420.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM4356A2_001.003.015.0095.0293.hex"
+HKR,,"LEScanParametersFix",0x10001, 1
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+
+[RAMUSB6420.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB3504;;;;;;;;;;;;;;;;;
+[RAMUSB3504.CopyList]
+BCM4371C2_001.003.015.0093.0118.hex
+
+[RAMUSB3504.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB3504.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB3504.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB3504.NT.hw.reg
+
+[RAMUSB3504.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM4371C2_001.003.015.0093.0118.hex"
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+
+[RAMUSB3504.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service	
+
+;;;;;;;;;;;;;RAMUSB3508;;;;;;;;;;;;;;;;;
+[RAMUSB3508.CopyList]
+BCM4371C2_001.003.015.0093.0117.hex
+
+[RAMUSB3508.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB3508.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB3508.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB3508.NT.hw.reg
+
+[RAMUSB3508.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM4371C2_001.003.015.0093.0117.hex"
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+
+[RAMUSB3508.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service
+
+;;;;;;;;;;;;;RAMUSB3517;;;;;;;;;;;;;;;;;
+[RAMUSB3517.CopyList]
+BCM20702A1_001.002.014.1502.1786.hex
+
+[RAMUSB3517.NT]
+Include=bth.inf
+Needs=BthUsb.NT
+FeatureScore=EF
+CopyFiles=RAMUSB3517.CopyList
+CopyFiles=bcbtums.CopyList
+
+[RAMUSB3517.NT.hw]
+AddReg=bcbtums.NT.AddReg
+AddReg=RAMUSB3517.NT.hw.reg
+
+[RAMUSB3517.NT.hw.reg]
+HKR,,%RAMPatchFileName%,0x00000, "BCM20702A1_001.002.014.1502.1786.hex"
+HKR,,"VsMsftOpCode",0x00010001,0xfd78
+
+[RAMUSB3517.NT.Services]
+needs=BthUsb.NT.Services
+AddService=bcbtums,,BCBTUMS_Service_Inst, BTWSECFL_EventLog_Inst
+AddService = btwampfl,,btwampfl.service		
+
+
+[Strings]
+Broadcom="Broadcom Corporation"
+BRCM20702.DeviceDesc=                           "Broadcom BCM20702 Bluetooth 4.0 USB Device"
+BRCM20702Combo.DeviceDesc=                      "Broadcom BCM20702 Bluetooth 4.0 +HS USB Device"
+BRCMBt40USB.DeviceDesc=                         "Broadcom Bluetooth 4.0 USB"
+BRCMBt40.DeviceDesc=                            "Broadcom Bluetooth 4.0"
+BRCM20702BtUsb.DeviceDesc=                      "Broadcom BCM20702 Bluetooth USB Device"
+BtUSB.DeviceDesc=                               "Bluetooth USB module"
+AzBtModule.DeviceDesc=                          "Bluetooth Module"
+AmBtModule.DeviceDesc=                          "Broadcom Bluetooth Module"
+HP20702A1.DeviceDesc=                           "Broadcom 20702 Bluetooth 4.0 Adapter"
+HP20702.DeviceDesc=                             "Broadcom Bluetooth 4.0 Adapter"
+BRCM20702Thinkpad.DeviceDesc=                   "ThinkPad Bluetooth 4.0"
+BRCM20702Generic.DeviceDesc=                    "Broadcom BCM20702 Bluetooth USB Device"
+BRCM43142BtUsb.DeviceDesc=                      "BCM43142 Bluetooth 4.0 +HS USB Device"
+BRCM43142BtAdapter.DeviceDesc=                  "BCM43142 Bluetooth Adapter"
+BRCM43142BtUsbhp.DeviceDesc=                    "Broadcom 43142 Bluetooth 4.0 Adapter"
+BRCM43142.DeviceDesc=                           "Broadcom Bluetooth 4.0 USB Device"
+BRCM43162BtUsb.DeviceDesc=                      "BCM43162 Bluetooth 4.0 +HS USB Device"
+Dell1704.DeviceDesc=                            "Dell Wireless 1704 Bluetooth v4.0+HS"
+AsusTrust.DeviceDesc=                           "Trust Bluetooth 4.0 Adapter"
+DellDW380.DeviceDesc=                           "Dell Wireless 380 Bluetooth 4.0 Module"
+DW1550.DeviceDesc=                              "DW1550 Bluetooth 4.0 LE"
+DellDW1708.DeviceDesc=                          "Dell Wireless 1708 Bluetooth 4.0 LE Device"
+AsusBT400.DeviceDesc=                           "ASUS USB-BT400"
+Belkin.DeviceDesc=                              "Belkin Bluetooth 4.0 USB Adapter"
+BRCM43162Combo.DeviceDesc=                      "Broadcom Bluetooth 4.0 USB Device"
+BRCMHPBlackbird.DeviceDesc=                     "Broadcom 43162 Bluetooth 4.0 Adapter"
+DellDW1560.DeviceDesc=                          "DW1560 Bluetooth 4.0 LE"  
+DW1830.DeviceDesc=                              "Dell Wireless 1830 Bluetooth 4.1 LE"  
+BRCM20702B0.DeviceDesc=                         "Micro size USB to Bluetooth Dongle"
+BRCM20703.DeviceDesc=                           "BCM20703 Bluetooth 4.1 USB Device"
+BRCM4356.DeviceDesc=                            "BCM4356 Bluetooth 4.0 +HS USB Device"
+BrcmBt41.DeviceDesc=                            "Broadcom Bluetooth 4.1 USB"
+DW1820.DeviceDesc=                              "Dell Wireless 1820A Bluetooth 4.1 LE"
+BRCM640D.DeviceDesc=                            "Broadcom Bluetooth 4.0 USB Device" 
+BRCM20703A1.DeviceDesc=                         "Broadcom BCM20703 Bluetooth USB Device"
+Zebra20702.DeviceDesc=                          "Broadcom 20702 Bluetooth 4.0"
+HPBROOK4371.DeviceDesc=                         "Broadcom 4371 Bluetooth 4.1 Adapter"
+
+PageScanWindow = "Page Scan Window"
+PageScanInterval = "Page Scan Interval"
+DeviceRemoteWakeSupported = "DeviceRemoteWakeSupported"
+RemoteWakeEnabled = "RemoteWakeEnabled"
+RemovableOverride = "RemovableOverride"
+RAMPatchFileName = "RAMPatchFileName"
+DisallowProximity = "DisallowProximity"
+
+BRCM="Broadcom Corporation"
+MfgName="Broadcom"
+BCBTUMS.SvcDesc="Bluetooth RAM Firmware Download USB Filter"
+DISK_1="Broadcom Installation Media"
+btwampfl.ServiceDescription = "btwampfl Bluetooth filter driver"
+btwampfl.ServiceName = "btwampfl"
