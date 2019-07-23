@@ -5,8 +5,7 @@ This repo will contain drivers for DW1820A m.2 2230 Wifi card for Mac/Windows/Li
 
 I was asked about the card i chose for my Lenovo Thinkpad T440P Hackintosh Project.
 ***
-    git@github.com:ameeno/Lenovo-Thinkpad-T440P-Hackintosh.git
-
+    https://github.com/ameeno/Lenovo-Thinkpad-T440P-Hackintosh
 
 
 **Most of the wifi cards for this laptop are $50+ USD.**
@@ -14,7 +13,7 @@ I was asked about the card i chose for my Lenovo Thinkpad T440P Hackintosh Proje
 But i decided as it was just a project, i would take a punt at a low cost card that is only around $10USD on aliexpress.
 I purchased it from here:
 ***
-    https://m.aliexpress.com/item/32895346062.html
+    https://www.aliexpress.com/item/32895346062.html
 ***
 
 
