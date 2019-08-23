@@ -70,7 +70,7 @@ Go to the following Github page and download the already converted driver that m
 
 Copy your file to /lib/firmware/brcm, for example:
 
-    sudo cp BCM4350C5-0a5c-6414.hcd/lib/firmware/brcm
+    sudo cp BCM4350C5-0a5c-6414.hcd /lib/firmware/brcm
 
 Reboot.
 
