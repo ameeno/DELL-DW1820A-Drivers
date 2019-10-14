@@ -2,8 +2,8 @@
 
 Inside the kext/* folder you will find 4 kexts,
 
-All of these are credited to Rehabman and his hard work.
-
+All of these kexts are credited to Rehabman and his hard work.
+The patch for clover.config was originally from Herve from OSXLatitude
 
 place the 4 kexts into your *EFI/CLOVER/Kexts/Other*
 
