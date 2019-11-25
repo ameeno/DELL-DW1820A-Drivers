@@ -10,7 +10,7 @@ Dell G7 7588:
 ***
 	https://github.com/Juan-VC/Hackintosh-macOS-Catalina-on-Dell-G7-7588
     
-* **Working DW1820A part number: 08PKF4 on Dell G7 7588 which is supposedly the worst card one could get (working with pin-masking without it, there are several issues) if yours do not work properly, check README.md with macOS instructions**
+* **Working DW1820A part number: 08PKF4 on Dell G7 7588 which is supposedly the worst card one could get (working with pin-masking. Without it, there are several issues) if yours do not work properly, check README.md with macOS instructions**
 
 **Most of the wifi cards for this laptop are $50+ USD.**
 
