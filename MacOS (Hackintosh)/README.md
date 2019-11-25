@@ -41,7 +41,7 @@ Under force Kext to load:
 
 ![Imgur](https://i.imgur.com/kof6tzz.png)
 		
-##Credits
+###Credits
 
 * the-darkvoid: Original BrcmPatchRAM and BrcmPatchRAM2 with the firmware injector
 * RehabMan: Improvements to kexts
