@@ -14,7 +14,6 @@ For linux, The WiFi portion of this card works well with the brcmfmac Kernel dri
 
 Normally this should load and autodetect, but if it does not, be sure to BLACKLIST other broadcom and iw drivers.
 
-
 Blacklisting drivers can be found here:
 
     https://wiki.archlinux.org/index.php/Kernel_module#Using_files_in_/etc/modprobe.d/_2
@@ -29,16 +28,12 @@ so for example a **/etc/modprobe.d/99_broadcom_blacklist.conf** would look like 
 
 ***
 
-
 If you create the file with that contents, it will block other broadcom/intel wifi drivers loading at boot time, allowing brcmfmac to do its job.
 
 This will make sure you have fully working wifi.
 ***
 
-
-
 ##**BLUETOOTH**
-
 
 For bluetooth however, The normal drivers are buggy.
 For arch this patch is fantastic (Download/Install from AUR)
@@ -74,9 +69,6 @@ Copy your file to /lib/firmware/brcm, for example:
 
 Reboot.
 
-
 This will enable fully working wifi/Bluetooth with the DW1820A on Linux.
-
-
 
 Hope that helps!
