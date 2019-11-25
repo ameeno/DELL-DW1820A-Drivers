@@ -1,14 +1,6 @@
 ### Instructions
 
-Inside the kext/* folder you will find 4 kexts,
-
-All of these kexts are credited to Rehabman and his hard work.
-The patch for clover.config was originally from Herve from OSXLatitude
-
-place the 4 kexts into your *EFI/CLOVER/Kexts/Other*
-
-Folder.
-
+Inside the kext folder you will find the necessary kexts for the card to work, place them into your *EFI/CLOVER/Kexts/Other* folder.
 
 Finally add the following Lines to your Clover file:
 (I have included screenshots for convenience)
@@ -44,3 +36,14 @@ Under force Kext to load:
 		<array>
 			<string>\System\Library\Extensions\IONetworkingFamily.kext</string>
 		</array>
+		
+* Notes: If you find the DW1820A not working properly you may try the pin-masking trick. Same pins should be masked for any computer. The following picture shows the pins-to-mask in red color.
+
+![Imgur](https://i.imgur.com/kof6tzz.png)
+		
+##Credits
+
+* the-darkvoid: Original BrcmPatchRAM and BrcmPatchRAM2 with their injector
+* RehabMan: Improvements to kexts
+* acidanthera: Further improvements of bluetooth kexts, introduction of BrcmPatchRAM3 and AirportBrcmFixup
+* Hervé: Properties injection from OSXLatitude
