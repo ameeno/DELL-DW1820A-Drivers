@@ -6,7 +6,7 @@ Note, The drivers need to be installed via device manager -> I have a disk optio
 
 Windows will warn you that the drivers may not be compatible with your hardware,
 
-Just ignore the warning and continue, they work Great.
+Just ignore the warning and continue, they work great.
 
 ***NOTE**
 Windows WILL force microsoft drivers by default, in my experience these do not work very well, and the drivers I have uploaded work much better.
