@@ -2,7 +2,7 @@
 
 This repo contains drivers for DW1820A m.2 2230 Wifi card for Mac/Windows/Linux.
 
-I was asked about the card I chose for my Lenovo Thinkpad T440P Hackintosh Project:
+I was asked about the card I chose for a Lenovo Thinkpad T440P Hackintosh Project:
 ***
     https://github.com/ameeno/Lenovo-Thinkpad-T440P-Hackintosh
     
