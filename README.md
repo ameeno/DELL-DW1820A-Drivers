@@ -1,11 +1,13 @@
 ### DELL-DW1820A-Drivers
-This repo will contain drivers for DW1820A m.2 2230 Wifi card for Mac/Windows/Linux.
+This repo contains drivers for DW1820A m.2 2230 Wifi card for Mac/Windows/Linux.
 
 
 
 I was asked about the card I chose for my Lenovo Thinkpad T440P Hackintosh Project.
 ***
     https://github.com/ameeno/Lenovo-Thinkpad-T440P-Hackintosh
+    
+* **Working also on Dell G7 7588**
 
 
 **Most of the wifi cards for this laptop are $50+ USD.**
@@ -25,7 +27,7 @@ Personally I think the card is fantastic.
 
 **HOWEVER**
 
-It does not work out of the box on MacOS Mojave or Win10 Or Even Linux.
+It does not work out of the box on MacOS Mojave or Win10 or Even Linux.
 It requires patches and modifications/drivers.
 
 Fortunately for you guy's friends, I have done the hard work already in getting the card fully working, so you don't have to.
