@@ -43,7 +43,7 @@ Under force Kext to load:
 		
 ### Credits
 
-* the-darkvoid: Original BrcmPatchRAM and BrcmPatchRAM2 with the firmware injector
+* the-darkvoid: Original BrcmPatchRAM idea
 * RehabMan: Improvements to kexts
 * acidanthera: Further improvements of bluetooth kexts, introduction of BrcmPatchRAM3 and AirportBrcmFixup
 * Hervé: Properties injection from OSXLatitude

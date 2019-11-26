@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>18G103</string>
+	<string>18E226</string>
 	<key>CFBundleExecutable</key>
 	<string>BrcmPatchRAM3</string>
 	<key>CFBundleIdentifier</key>
@@ -27,17 +27,17 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>10G8</string>
+	<string>10E1001</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>18G74</string>
+	<string>18E219</string>
 	<key>DTSDKName</key>
 	<string>macosx10.14</string>
 	<key>DTXcode</key>
-	<string>1030</string>
+	<string>1020</string>
 	<key>DTXcodeBuild</key>
-	<string>10G8</string>
+	<string>10E1001</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>0489_e032</key>
@@ -1244,7 +1244,7 @@
 			<key>DisplayName</key>
 			<string>Broadcom Bluetooth 4.1 USB</string>
 			<key>FirmwareKey</key>
-			<string>BCM4350C5_003.006.007.0222.4689_v8785</string>
+			<string>BCM4350C5_003.006.007.0145.2724_v6820</string>
 			<key>IOClass</key>
 			<string>BrcmPatchRAM3</string>
 			<key>IOMatchCategory</key>
@@ -1881,7 +1881,7 @@
 	</dict>
 	<key>OSBundleLibraries</key>
 	<dict>
-		<key>as.acidanthera.BrcmFirmwareStore - 2</key>
+		<key>as.acidanthera.BrcmFirmwareStore</key>
 		<string>2.5.0</string>
 		<key>com.apple.iokit.IOUSBHostFamily</key>
 		<string>1.0.1</string>
