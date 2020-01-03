@@ -33,8 +33,6 @@ Under /Devices/Properties key
 				<key>name</key>
 				<string>Airport</string>
 			</dict>
-		</dict>
-
 ***
 
 
