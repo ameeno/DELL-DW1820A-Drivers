@@ -66,11 +66,15 @@ shows this on my laptop for Bluetooth
 
     Bus 002 Device 002: ID 0a5c:6414 Broadcom Corp. BCM4350C5 Bluetooth
 
-Go to the following Github page and download the already converted driver that matches your ID: https://github.com/winterheart/broadcom-bt-firmware/tree/master/brcm (mine was BCM4350C5-0a5c-6414.hcd) Click on the file name, then click the Download button.
+Go to the following Github page and download the already converted driver that matches your ID: https://github.com/winterheart/broadcom-bt-firmware/tree/master/brcm (mine was BCM4350C5-0a5c-6414.hcd) Click on the file name, then click the Download button. The key to search for is the last 4 digits of lsusb (mine is 6414).
 
-Copy your file to /lib/firmware/brcm, for example:
+*There are different itterations of this card, My last 4 digits are 6414. make sure yours is 6414 or use the version of the file you have.*
 
-    sudo cp BCM4350C5-0a5c-6414.hcd /lib/firmware/brcm
+I have uploaded the hcd file to this repo to help you.
+
+Copy your file to /lib/firmware/brcm/BCM.hcd, for example:
+
+    sudo cp BCM4350C5-0a5c-6414.hcd /lib/firmware/brcm/BCM.hcd
 
 Reboot.
 
